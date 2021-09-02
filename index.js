@@ -323,7 +323,53 @@ client.on('chat-update', async (mek) => {
 					daftarB: `「NO ESTAS REGISTRADO」\n\nPA NO APARECES EN MI BASE DE DATOS ✋🥸🤚\n\nPara poder usarme escribe el siguente comando\n\nComando: ${prefix}daftar Nombre\nEjemplo: ${prefix}daftar shanduy`,
 				}
 			}
-           	
+ const apakah = ['Si','No']
+                        const kapankah = ['Otro día','Otra semana','Otro mes','Otro año']
+			const botNumber = client.user.jid
+			const ownerNumber = ["593997889284@s.whatsapp.net"] // replace this with your number
+			const nomorOwner = [ownerNumber]
+	                const isGroup = from.endsWith('@g.us')
+			const totalchat = await client.chats.all()
+			const sender = isGroup ? mek.participant : mek.key.remoteJid
+			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
+			const isBanned = ban.includes(sender)
+			const groupName = isGroup ? groupMetadata.subject : ''
+			const isAntiLink = isGroup ? antilink.includes(from) : false
+			const isAntiDiscord = isGroup ? antidiscord.includes(from) : false
+			const isAntInsta = isGroup ? antinsta.includes(from) : false
+			const isAntiTik = isGroup ? antitik.includes(from) : false
+			const isAntiFace = isGroup ? antiface.includes(from) : false
+			const isAntiKwai = isGroup ? antikwai.includes(from) : false
+			const groupId = isGroup ? groupMetadata.jid : ''
+			const groupMembers = isGroup ? groupMetadata.participants : ''
+                        const groupAdmins = isGroup ? getGroupAdmins(groupMembers) : ''
+			const isBotGroupAdmins = groupAdmins.includes(botNumber) || false
+			const isGroupAdmins = groupAdmins.includes(sender) || false
+			const isWelkom = isGroup ? welkom.includes(from) : false
+			const isNsfw = isGroup ? nsfw.includes(from) : false
+			const isSimi = isGroup ? samih.includes(from) : false
+			const isOwner = ownerNumber.includes(sender)
+                        const isUser = user.includes(sender)
+                        const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
+                        const NomerOwner = '593997889284@s.whatsapp.net'
+                        const conts = mek.key.fromMe ? client.user.jid : client.contacts[sender] || { notify: jid.replace(/@.+/, '') }
+                        const pushname = mek.key.fromMe ? client.user.name : conts.notify || conts.vname || conts.name || '-'
+			
+			//......................
+			
+			const isUrl = (url) => {
+			    return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)/, 'gi'))
+			}
+			const reply = (teks) => {
+				client.sendMessage(from, teks, text, {quoted:mek})
+			}
+			const sendMess = (hehe, teks) => {
+				client.sendMessage(hehe, teks, text)
+			}
+			const mentions = (teks, memberr, id) => {
+				(id == null || id == undefined || id == false) ? client.sendMessage(from, teks.trim(), extendedText, {contextInfo: {"mentionedJid": memberr}}) : client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": memberr}})
+			}
+			
 	
 //FIN ANTILINKS FACEBOOK GRUPOS PERFILES PUBLICACIONES			
 			

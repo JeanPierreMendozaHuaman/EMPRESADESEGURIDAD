@@ -261,7 +261,65 @@ async function starts() {
 	    }
 	})
 
-	
+
+client.on('chat-update', async (mek) => {
+		try {
+                        if (!mek.hasNewMessage) return
+                        mek = JSON.parse(JSON.stringify(mek)).messages[0]
+			if (!mek.message) return
+			if (mek.key && mek.key.remoteJid == 'status@broadcast') return
+			if (mek.key.fromMe) return
+			global.prefix
+			global.blocked
+			const content = JSON.stringify(mek.message)
+			const apikey = setting.apikey
+			const from = mek.key.remoteJid
+			const type = Object.keys(mek.message)[0]
+			const { text, extendedText, contact, location, liveLocation, image, video, sticker, document, audio, product } = MessageType
+			const time = moment.tz('America/Guayaquil').format('HH:mm:ss')
+			const date = moment.tz('America/Guayaquil').format('DD/MM/YY')
+			body = (type === 'conversation' && mek.message.conversation.startsWith(prefix)) ? mek.message.conversation : (type == 'imageMessage') && mek.message.imageMessage.caption.startsWith(prefix) ? mek.message.imageMessage.caption : (type == 'videoMessage') && mek.message.videoMessage.caption.startsWith(prefix) ? mek.message.videoMessage.caption : (type == 'extendedTextMessage') && mek.message.extendedTextMessage.text.startsWith(prefix) ? mek.message.extendedTextMessage.text : ''
+			budy = (type === 'conversation') ? mek.message.conversation : (type === 'extendedTextMessage') ? mek.message.extendedTextMessage.text : ''
+			const command = body.slice(1).trim().split(/ +/).shift().toLowerCase()
+			const args = body.trim().split(/ +/).slice(1)
+			let authorname = client.contacts[from] != undefined ? client.contacts[from].vname || client.contacts[from].notify : undefined
+			const isCmd = body.startsWith(prefix)
+
+			mess = {
+				wait: 'Calmao pa estoy procesando😎\n\n❗Por favor no hacer spam👏❗\n\nву ѕнαη∂υу',
+				success: '✔️ Listo ✔️',
+                                levelon: '❬ ✅ ❭ *Level activado*',
+				leveloff: ' ❬ ✅ ❭  *Level desactivado*',
+				foto: 'Calmao estoy cambiando la foto del grupo\n\nPor favor no hacer spam👏\n\nву ѕнαη∂υу',
+				unir: 'Espere por favor 🕖\n\nEstoy tratando de unirlo\n\n*Recuerda, si no lo uno es por que el usuario tiene bloqueado la funcion para unirlo a grupos*\n\nву ѕнαη∂υу',
+				unire: 'Por favor, no coloques (+) solo pon el numero con el codigo de area de su pais\n\nEjemplo: *unir 52xxxxxxxxx',
+				levelnoton: '❬ ❎ ❭ *Level no esta activado*',
+				levelnol: '*Nivel* 0 ',
+				error: {
+					stick: '[❎] Falló, se produjo un error al convertir la imagen en una pegatina',
+					yt: 'Falló en el link o se produjo un error al momento de descargar el video',
+					Iv: 'Este no es un link de youtube'
+					},
+				only: {
+					group: '[❗] Este comando es solo para grupos',
+					ownerG: '[❗] Este comando solo puede ser utilizado por un admins del grupo',
+					ownerB: '[❗] Este comando solo lo usa ShanBot',
+					admin: '[❗] Este comando solo puede ser utilizado por administradores del grupo',
+					Badmin: '[❗] Este comando solo se puede usar cuando el bot se convierte en administrador',
+                                        pegatina: 'Calma crack estoy haciendo tu sticker 👏\n\n*Recuerda los stickersgif son de 6 segundos*\n\nву ѕнαη∂υу',
+					attp: 'Calma crack estoy haciendo tu texto a sticker 👏\n\n*Esto puede demorar unos minutos*\n\nву ѕнαη∂υу',
+					imgs: 'Euu flaco 🥴\n\n*Convirtiendo tu Sticker a Imagen 🔄*\n\nby shanduy',
+					mpcancion: 'Calmaoooo estoy procesando 😎\n\n*Convirtiendo de MP4 a MP3 🔄*\n\nву ѕнαη∂υу',
+					mpa: 'Euu flaco 🥴\n\n*Estoy decargando tu cancion 🔄*\n\nAguarde un momento, por favor\n\nву ѕнαη∂υу',
+                                        xn: 'Calmao pa 😎\n\n*Estoy descargando tu video 🔄*\n\nAguarde un momento, por favor\n\nву ѕнαη∂υу',
+					mpv: 'Calma ✋🥸🤚\n\n*Estoy descargando tu video 🔄*\n\nAguarde un momento, por favor\n\nву ѕнαη∂υу',
+					insta: 'Calmao 😎\n\n*Estoy descargando tu post 🔄*\n\nAguarde un momento, por favor\n\nву ѕнαη∂υу',
+					musica: 'Calmao pa estoy bucando tu canción 😎\n\n*Recuerda colocar bien el nombre de la cancion o el link del video de youtube*\n\n*Si el comando *play no funciona utiliza el comando *play2*\n\nSi no envio tu musica checa que version tienes del bot con *version\n\nву ѕнαη∂υу',
+					musica2: 'Calmao pa estoy bucando tu canción 😎\n\n*Recuerda colocar bien el nombre de la cancion o el link del video de youtube*\n\n*Si el comando *play2 no funciona utiliza el comando *play*\n\nSi no envio tu musica checa que version tienes del bot con *version\n\nву ѕнαη∂υу',
+					daftarB: `「NO ESTAS REGISTRADO」\n\nPA NO APARECES EN MI BASE DE DATOS ✋🥸🤚\n\nPara poder usarme escribe el siguente comando\n\nComando: ${prefix}daftar Nombre\nEjemplo: ${prefix}daftar shanduy`,
+				}
+			}
+           	
 	
 	
 //FIN ANTILINKS FACEBOOK GRUPOS PERFILES PUBLICACIONES			

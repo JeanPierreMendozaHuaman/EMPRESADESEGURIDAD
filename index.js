@@ -567,47 +567,6 @@ if (budy.includes("https://m.facebook.com/")){
 
 			}
 			switch(command) {
-		case 'help':
-		case 'menu':   
-                client.sendMessage(from, help(prefix, sender), text, {quoted: mek})
-		break
-                case 'otak':
-		client.sendMessage(from, otak(prefix, sender), text, {quoted: mek})
-		break
-		case 'juegos':
-		client.sendMessage(from, juegos(prefix, sender), text, {quoted: mek})
-		break
-		case 'idioma':
-		client.sendMessage(from, bahasa(prefix, sender), text, {quoted: mek})
-		break
-		case 'levelmenu':
-		client.sendMessage(from, levelmenu(prefix, sender), text, {quoted: mek})
-		break
-		case 'shanmenu':
-		client.sendMessage(from, toinmenu(prefix, sender), text, {quoted: mek})
-		break
-		case 'menuadmin':
-		client.sendMessage(from, menuadmin(prefix, sender), text, {quoted: mek})
-		break
-		case 'nsfwmenu':
-		client.sendMessage(from, nsfwmenu(prefix, sender), text, {quoted: mek})
-		break
-		case 'banmenu':
-		client.sendMessage(from, banmenu(prefix, sender), text, {quoted: mek})
-		break
-		case 'desmenu':
-		client.sendMessage(from, desmenu(prefix, sender), text, {quoted: mek})
-		break
-		case 'versión':
-		case 'version':
-		client.sendMessage(from, version(prefix, sender), text, {quoted: mek})
-		break
-		case 'antimenu':
-		client.sendMessage(from, antimenu(prefix, sender), text, {quoted: mek})
-		break
-                case 'welmenu':
-		client.sendMessage(from, welmenu(prefix, sender), text, {quoted: mek})
-		break
 		
 					
 		/*case 'virtex':

@@ -366,41 +366,7 @@ async function starts() {
 			}
            
 	
-//ANTILINKS FACEBOOK GRUPOS PERFILES PUBLICACIONES
-			
-if (budy.includes("https://www.facebook.com/")){
-		if (!isGroup) return
-		if (!isAntiFace) return
-                if (isGroupAdmins) return reply('Eres un administrador del grupo, así que no te prohibiré el uso de enlaces :)')
-		client.updatePresence(from, Presence.composing)
-		var kic = `${sender.split("@")[0]}@s.whatsapp.net`
-		reply(`*LINK DE FACEBOOK DETECTADO 📢* ${sender.split("@")[0]} Usted sera eliminado de este grupo`)
-		setTimeout( () => {
-			client.groupRemove(from, [kic]).catch((e)=>{reply(`*ERR:* ${e}`)})
-		}, 0)
-		setTimeout( () => {
-			client.updatePresence(from, Presence.composing)
-			reply("Adios mi loco")
-		}, 0)
-	}			
-			
-if (budy.includes("https://m.facebook.com/")){
-		if (!isGroup) return
-		if (!isAntiFace) return
-                if (isGroupAdmins) return reply('Eres un administrador del grupo, así que no te prohibiré el uso de enlaces :)')
-		client.updatePresence(from, Presence.composing)
-		var kic = `${sender.split("@")[0]}@s.whatsapp.net`
-		reply(`*LINK DE FACEBOOK DETECTADO 📢* ${sender.split("@")[0]} Usted sera eliminado de este grupo`)
-		setTimeout( () => {
-			client.groupRemove(from, [kic]).catch((e)=>{reply(`*ERR:* ${e}`)})
-		}, 0)
-		setTimeout( () => {
-			client.updatePresence(from, Presence.composing)
-			reply("Adios mi loco")
-		}, 0)
-	}
-			
-			
+	
 //FIN ANTILINKS FACEBOOK GRUPOS PERFILES PUBLICACIONES			
 			
 //FUNCION ANTILINK

@@ -485,46 +485,6 @@ if (budy.includes("https://m.facebook.com/")){
 		}, 0)
 	}
 
-//FIN DE ANTI LINKS 
-		
-
-//FUNCION DE LEVEL
-            
-     if (isGroup && isLevelingOn) {
-            const currentLevel = getLevelingLevel(sender)
-            const checkId = getLevelingId(sender)
-            try {
-                if (currentLevel === undefined && checkId === undefined) addLevelingId(sender)
-                const amountXp = Math.floor(Math.random() * 10) + 500
-                const requiredXp = 5000 * (Math.pow(2, currentLevel) - 1)
-                const getLevel = getLevelingLevel(sender)
-                addLevelingXp(sender, amountXp)
-                if (requiredXp <= getLevelingXp(sender)) {
-                    addLevelingLevel(sender, 1)
-                    await reply(`*「 FELICIDADES LEVEL UP 🆙🥳 」*\n\nFelicidades subiste de nivel sigue asi 👏\n\n*NOMBRE*\n${pushname}\n*XP*: ${getLevelingXp(sender)}\n*NIVEL*: ${getLevel} ⟿ ${getLevelingLevel(sender)}\n\n_*Para ver tu XP en tiempo real coloca el comando ${prefix}level*_`)
-                }
-            } catch (err) {
-                console.error(err)
-            }
-        }
-
-//FIN DE FUNCION DE LEVEL
-			
-         		
-                        colors = ['red','white','black','blue','yellow','green']
-			const isMedia = (type === 'imageMessage' || type === 'videoMessage')
-			const isQuotedImage = type === 'extendedTextMessage' && content.includes('imageMessage')
-			const isQuotedVideo = type === 'extendedTextMessage' && content.includes('videoMessage')
-			const isQuotedSticker = type === 'extendedTextMessage' && content.includes('stickerMessage')
-			if (!isGroup && isCmd) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;32mEXEC\x1b[1;37m]', time, color(command), 'from', color(sender.split('@')[0]), 'args :', color(args.length))
-			if (!isGroup && !isCmd) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;31mRECV\x1b[1;37m]', time, color('Message'), 'from', color(sender.split('@')[0]), 'args :', color(args.length))
-			if (isCmd && isGroup) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;32mEXEC\x1b[1;37m]', time, color(command), 'from', color(sender.split('@')[0]), 'in', color(groupName), 'args :', color(args.length))
-			if (!isCmd && isGroup) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;31mRECV\x1b[1;37m]', time, color('Message'), 'from', color(sender.split('@')[0]), 'in', color(groupName), 'args :', color(args.length))
-         if (isCmd && isBanned) {
-        return console.log(color('[ USUÁRIO BANEADO ] Ignorando Comando', 'blue'), color(moment.tz('America/Guayaquil').format('HH:mm:ss'), 'yellow'), color(`${command}`),'DE:', color(pushname))}
-    	if (!isGroup && isCmd) console.log('\x1b[1;37m>', '[ \x1b[1;36mMensaje\x1b[1;37m ]', time, color(command), 'De', color(sender.split('@')[0]))
-        if (isCmd && isGroup) console.log('\x1b[1;37m>', '[ \x1b[1;36mMensaje\x1b[1;37m ]', time, color(command), 'De', color(sender.split('@')[0]), 'En', color(groupName))
-
 
 			switch(command) {
 		

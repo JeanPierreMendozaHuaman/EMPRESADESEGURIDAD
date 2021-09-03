@@ -69,7 +69,12 @@ const {
 
 
 /******FIN DE ARCHIVOS ANTILINK POR SHANDUY******/
-
+const antilink = JSON.parse(fs.readFileSync('./src/antilink.json'))
+const antiface = JSON.parse(fs.readFileSync('./src/antiface.json'))
+const antitik = JSON.parse(fs.readFileSync('./src/antitik.json'))
+const antinsta = JSON.parse(fs.readFileSync('./src/antinsta.json'))
+const antikwai = JSON.parse(fs.readFileSync('./src/antikwai.json'))
+const antidiscord = JSON.parse(fs.readFileSync('./src/antidiscord.json'))
 	
 
 

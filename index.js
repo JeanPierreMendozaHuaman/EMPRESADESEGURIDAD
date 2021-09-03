@@ -254,10 +254,18 @@ only: {
                             
                 default:
                 
-		if (budy.includes(`Todo bien`)) {
-                  reply(`Si amigo todo bien, vite`)
+		if (budy.includes(``)) {
+                  reply(`Hola! 😀 Nos alegra que estés interesado en nuestros cursos de Formación de Agentes de Seguridad. Si tienes dudas respecto a este curso, escribe una de las siguientes alternativas:
+		  *A:PRECIO*
+		  *B:Duración y Horario*
+		  *C:Requisitos*
+		  *D: Beneficios y Ventajas*
+		  *E: ¿Por qué elegirnos?*
+		  *F: Temario de las clases*
+		  *G: Quiero realizar el pago ya 😀*
+		  `)
                   }
-
+				
 		if (budy.includes(`Buenos dias`)) {
                   reply(`Buenos Dias trolos de mierda`)
                   }

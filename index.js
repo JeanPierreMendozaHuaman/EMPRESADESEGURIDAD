@@ -221,9 +221,7 @@ only: {
 	                const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
-			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
-			const isBanned = ban.includes(sender)
-			const groupName = isGroup ? groupMetadata.subject : ''
+			
 		
                         const NomerOwner = '593997889284@s.whatsapp.net'
                         const conts = mek.key.fromMe ? client.user.jid : client.contacts[sender] || { notify: jid.replace(/@.+/, '') }

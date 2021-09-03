@@ -297,8 +297,8 @@ only: {
                   reply(`el diegote pa`)
                   }
 					
-		if (budy.startsWith(`Hora del sexito`)) {
-        const none = fs.readFileSync('./mp3/maau1.mp3');
+		if (budy.startsWith(`bot`)) {
+        const none = fs.readFileSync('./mp3/Bad Bunny - Yonaguni (Video Oficial)_50k.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	

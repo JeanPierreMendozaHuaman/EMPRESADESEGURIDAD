@@ -33,7 +33,16 @@ const loli = new lolis()
 const speed = require('performance-now')
 /******FIN DE ENTRADA DEL PAQUETE NPM******/
 
-
+/******COMIENZO DE LA ENTRADA JSON******/
+const welkom = JSON.parse(fs.readFileSync('./database/json/welkom.json'))
+const nsfw = JSON.parse(fs.readFileSync('./database/json/nsfw.json'))
+const ban = JSON.parse(fs.readFileSync('./database/banned.json'))
+const setting = JSON.parse(fs.readFileSync('./src/settings.json'))
+const samih = JSON.parse(fs.readFileSync('./database/json/simi.json'))
+const user = JSON.parse(fs.readFileSync('./database/json/user.json'))
+const _leveling = JSON.parse(fs.readFileSync('./database/json/leveling.json'))
+const _level = JSON.parse(fs.readFileSync('./database/json/level.json'))
+/******FIN DE ENTRADA JSON******/
 
 
 

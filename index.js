@@ -254,7 +254,7 @@ only: {
                             
                 default:
                 
-		if (budy.includes(`1`)) {
+		if (budy.includes(``)) {
                   reply(`Hola! 😀 Nos alegra que estés interesado en nuestros cursos de Formación de Agentes de Seguridad.Si tienes dudas respecto a este curso, debes ingresar el numero de opcion elegida:
 		  *(1):PRECIO*
 		  *(2):Duración y Horario*

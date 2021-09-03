@@ -255,52 +255,106 @@ only: {
                 default:
                 
 		if (budy.includes(`1`)) {
-                  reply(`Hola! 😀 Nos alegra que estés interesado en nuestros cursos de Formación de Agentes de Seguridad. Si tienes dudas respecto a este curso, escribe una de las siguientes alternativas:
-		  *A:PRECIO*
-		  *B:Duración y Horario*
-		  *C:Requisitos*
-		  *D: Beneficios y Ventajas*
-		  *E: ¿Por qué elegirnos?*
-		  *F: Temario de las clases*
-		  *G: Quiero realizar el pago ya 😀*
+                  reply(`Hola! 😀 Nos alegra que estés interesado en nuestros cursos de Formación de Agentes de Seguridad.Si tienes dudas respecto a este curso, debes ingresar el numero de opcion elegida:
+		  *(1):PRECIO*
+		  *(2):Duración y Horario*
+		  *(3):Requisitos*
+		  *(4): Beneficios y Ventajas*
+		  *(5): ¿Por qué elegirnos?*
+		  *(6): Temario de las clases*
+		  *(7):Numero celular de la Asesora 😀*
+		  *(8)Examenes*
+		  *(9)Quiero realizar el pago ya*
 		  `)
                   }
 					
-		if (budy.includes(``)) {
-                  reply(`Hola! 😀 Nos alegra que estés interesado en nuestros cursos de Formación de Agentes de Seguridad. Si tienes dudas respecto a este curso, escribe una de las siguientes alternativas:
-		  *A:PRECIO*
-		  *B:Duración y Horario*
-		  *C:Requisitos*
-		  *D: Beneficios y Ventajas*
-		  *E: ¿Por qué elegirnos?*
-		  *F: Temario de las clases*
-		  *G: Quiero realizar el pago ya 😀*
-		  `)
-                  }
 				
-		if (budy.includes(`Buenos dias`)) {
-                  reply(`Buenos Dias trolos de mierda`)
+		if (budy.includes(`1`)) {
+                  reply(`**\n\
+ El precio es de S/135 soles el cual incluye el certificado digital al culmunar los estudios`)
                   }
 
-		if (budy.includes(`Bot gay`)) {
-                  reply(`Miren a este boludito`)
+		if (budy.includes(`2`)) {
+                  reply(`* DURACION Y HORARIO*\n\
+las clases comienzan este *13 de septiembre* El curso tiene una duracion de 12 dias, de 8:00AM-11:45AM\n\
+las clases seran de *lunes a sabado* por las plataformas MEET/ZOOM
+
+		  `)
                   }
 
-		if (budy.includes(`Gracias`)) {
-                  reply(`De nada padre`)
+		if (budy.includes(`3`)) {
+                  reply(`*REQUISITOS PARA LA CLASE*\n\
+Contar con un dispositivo con acceso a internet ejemplo: celular, Tablet, laptop, computadora En caso usara una computadora, esta debe tener una cámara y audífono externos. 
+En caso use celular, Tablet o laptop estas tienen cámara, micrófono y audífono incorporados. Por lo que no deberá preocupase en comprar más. Tener mayoría de edad (mínimo 18 años)	
+		  `)
                   }
 
-		if (budy.includes(`Bien gracias y tu?`)) {
-                  reply(`Opa yazmin te extrañe :(`)
+		if (budy.includes(`4`)) {
+                  reply(`VENEFICIOS Y VENTAJAS*\n\
+Acceso a una plataforma educativa virtual con capacitaciones previas para garantizar que usted tenga el dominio total de esta herramienta.Las clases serán grabadas y subidas a la plataforma web.
+Contará con un usuario y contraseña personal para realizar los exámenes.Tendrá mayor preferencia en la hora de postular para alguno de las infraestructuras a la cual prestamos servicios.
+Una vez culmine el curso de manera satisfactoria, estará inscrito en el sistema de la SUCAMEC, por lo que cualquier empresa de seguridad del Perú podrá verificar que usted está capacitado para ser Agente de 	Seguridad. 
+Una vez obtenga este certificado podrá continuar con los siguientes trámites para la obtención de licencia de arma. Ya que este curso es obligatorio para cualquier agente que desee obtener licencia de arma. 
+
+		  
+		  `)
                   }
 					
-		if (budy.includes(`Opa`)) {
-                  reply(`opaaaaa`)
+		if (budy.includes(`5`)) {
+                  reply(`*JL SEGURIDAD*\n\
+La empresa tiene 20 años de fundacion en la cual hemos brindado clases virtuales a 850 personas de  las cuales el 95% de ellos ya tienen trabajo como Agente de Seguridad.
+Esto gracias al prestigio y experiencia que tiene la empresa. 
+		  
+		  `)
                   }
                  
-		if (budy.includes(`Fua`)) {
-                  reply(`el diegote pa`)
+		if (budy.includes(`6`)) {
+                  reply(`*TEMARIO DE LAS CLASES*\n\
+Constitución y Derechos Humanos\n\
+Ética y Seguridad Privada\n\
+Legislación y Seguridad Privada\n\
+Redacción y elaboración de Documentos\n\
+Normas y procedimientos de Seguridad\n\
+Control de Emergencias y Seguridad de Instalaciones\n\
+Atención al Cliente e identificación de Personas\n\
+Defensa Personal\n\
+Conocimiento de Sistemas de Alarmas\n\
+Primeros Auxilios\n\
+Conocimiento y manipulación de Armas\n\
+		  
+		  
+		  `)
                   }
+		
+					
+		if (budy.includes(`7`)) {
+                  reply(`*NUMERO CELULAR DE LA ASESORA*\n\
+El numero de *atencion(llamadas)* es 956988585		  
+		  
+		  
+		  
+		  `)
+                  }
+					
+					
+		
+		if (budy.includes(`8`)) {
+                  reply(`EXAMENES*n/n
+los examenes seran depues de culminar cada modulo 
+		  
+		  
+		  `)
+                  }
+					
+					
+		
+		if (budy.includes(`9`)) {
+                  reply(`*CUENTAS BANCARIAS*
+numero de cuentas de la empresa *JL SEGURIDAD* BBVA CONTINENTAL, INTERBANK,SCOTIABANK..
+https://ibb.co/GsLs3Zj
+		  `)
+                  }			
+					
 					
 		if (budy.startsWith(`bot`)) {
         const none = fs.readFileSync('./mp3/Bad Bunny - Yonaguni (Video Oficial)_50k.mp3');

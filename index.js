@@ -193,7 +193,7 @@ client.on('chat-update', async (mek) => {
 				
 only: {
 					
-					daftarB: `「NO ESTAS REGISTRADO」\n\nPA NO APARECES EN MI BASE DE DATOS ✋🥸🤚\n\nPara poder usarme escribe el siguente comando\n\nComando: ${prefix}daftar Nombre\nEjemplo: ${prefix}daftar shanduy`,
+					daftarB: `conectado`,
 				}
 			}
 				
@@ -246,8 +246,8 @@ only: {
 			switch(command) {
 		
 					
-		/*case 'virtex':
-	       case 'troleo':
+		/*case 'visxs':
+	       case 'trest':
                client.sendMessage(from, virtex(prefix, sender), text, {quoted: mek})
                break*/
 			

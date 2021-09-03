@@ -216,7 +216,6 @@ only: {
  const apakah = ['Si','No']
                 
 			const botNumber = client.user.jid
-			const ownerNumber = ["593997889284@s.whatsapp.net"] // replace this with your number
 			const nomorOwner = [ownerNumber]
 	                const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
@@ -224,24 +223,14 @@ only: {
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
 			const isBanned = ban.includes(sender)
 			const groupName = isGroup ? groupMetadata.subject : ''
-			const isAntiLink = isGroup ? antilink.includes(from) : false
-			const isAntiDiscord = isGroup ? antidiscord.includes(from) : false
-			const isAntInsta = isGroup ? antinsta.includes(from) : false
-			const isAntiTik = isGroup ? antitik.includes(from) : false
-			const isAntiFace = isGroup ? antiface.includes(from) : false
-			const isAntiKwai = isGroup ? antikwai.includes(from) : false
 			const groupId = isGroup ? groupMetadata.jid : ''
 			const groupMembers = isGroup ? groupMetadata.participants : ''
-                        const groupAdmins = isGroup ? getGroupAdmins(groupMembers) : ''
-			const isBotGroupAdmins = groupAdmins.includes(botNumber) || false
-			const isGroupAdmins = groupAdmins.includes(sender) || false
 			const isWelkom = isGroup ? welkom.includes(from) : false
 			const isNsfw = isGroup ? nsfw.includes(from) : false
 			const isSimi = isGroup ? samih.includes(from) : false
 			const isOwner = ownerNumber.includes(sender)
                         const isUser = user.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = '593997889284@s.whatsapp.net'
                         const conts = mek.key.fromMe ? client.user.jid : client.contacts[sender] || { notify: jid.replace(/@.+/, '') }
                         const pushname = mek.key.fromMe ? client.user.name : conts.notify || conts.vname || conts.name || '-'
 			//......................

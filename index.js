@@ -45,7 +45,7 @@ const vcard = 'BEGIN:VCARD\n' // Tarjeta de contacto
             + 'END:VCARD'
 /******FIN DE ENTRADA VCARD******/
 
-prefix = ''
+prefix = ' '
 blocked = []
 banChats = false
 
@@ -255,14 +255,15 @@ only: {
                 default:
                 
 		if (budy.includes(``)) {
-                  reply(`Hola! 😀 Nos alegra que estés interesado en nuestros cursos de Formación de Agentes de Seguridad.Si tienes dudas respecto a este curso, debes ingresar el numero de opcion elegida:
+                  reply(`Hola! 😀 Nos alegra que estés interesado en nuestros cursos de Formación de Agentes de Seguridad.
+Si tienes dudas respecto a este curso, debes ingresar el numero de opcion elegida:
 		  *(1):PRECIO*
 		  *(2):Duración y Horario*
 		  *(3):Requisitos*
 		  *(4): Beneficios y Ventajas*
 		  *(5): ¿Por qué elegirnos?*
 		  *(6): Temario de las clases*
-		  *(7):Numero celular de la Asesora 😀*
+		  *(7):Numero celular de la Asesora😀*
 		  *(8)Examenes*
 		  *(9)Quiero realizar el pago ya*
 		  `)
@@ -270,7 +271,8 @@ only: {
 					
 				
 		if (budy.includes(`1`)) {
-                  reply(`**\n\
+                  reply(
+			  `*PRECIO*\n\
  El precio es de S/135 soles el cual incluye el certificado digital al culmunar los estudios`)
                   }
 

@@ -290,11 +290,7 @@ client.on('chat-update', async (mek) => {
 			
 				success: '✔️ Listo ✔️',
                                 
-				error: {
-					stick: '[❎] Falló, se produjo un error al convertir la imagen en una pegatina',
-					yt: 'Falló en el link o se produjo un error al momento de descargar el video',
-					Iv: 'Este no es un link de youtube'
-					},
+				
 only: {
 					
 					daftarB: `「NO ESTAS REGISTRADO」\n\nPA NO APARECES EN MI BASE DE DATOS ✋🥸🤚\n\nPara poder usarme escribe el siguente comando\n\nComando: ${prefix}daftar Nombre\nEjemplo: ${prefix}daftar shanduy`,

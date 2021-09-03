@@ -28,8 +28,7 @@ const fetch = require('node-fetch')
 const ffmpeg = require('fluent-ffmpeg')
 const { removeBackgroundFromImageFile } = require('remove.bg')
 const imgbb = require('imgbb-uploader')
-const lolis = require('lolis.life')
-const loli = new lolis()
+
 const speed = require('performance-now')
 /******FIN DE ENTRADA DEL PAQUETE NPM******/
 
@@ -161,7 +160,7 @@ await client.connect({timeoutMs: 30*1000})
 			if (anu.action == 'add') {
 				num = anu.participants[0]
 				num = anu.participants[0]
-				teks = `Bueno, se fue @${num.split('@')[0]} 👋\n\nQue dios lo bendiga 😎`
+				teks = ` @${num.split('@')[0]} 👋 😎`
 				client.sendMessage(mdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [num]}})
 			}
 		} catch (e) {

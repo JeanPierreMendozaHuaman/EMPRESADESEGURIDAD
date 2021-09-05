@@ -352,8 +352,10 @@ los examenes seran depues de culminar cada modulo
 		
 		if (budy.includes(`9`)) {
                   reply(`*CUENTAS BANCARIAS*
-numero de cuentas de la empresa *JL SEGURIDAD* BBVA CONTINENTAL, INTERBANK,SCOTIABANK..
-https://ibb.co/GsLs3Zj
+Numero de cuenta para realizar el pago
+ 
+https://drive.google.com/file/d/1jjv6SKzhjFcfkcuLk4G3o5tzVIrS99f0/view
+Despues de haber realizado el pago enviar el baucher al  siguiente número http://Wa.me/+51956988585
 		  `)
                   }			
 					

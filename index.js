@@ -277,7 +277,7 @@ Si tienes dudas respecto a este curso, debes ingresar el numero de opcion elegid
                   }
 
 		if (budy.includes(`2`)) {
-                  reply(`* DURACION Y HORARIO*\n\
+                  reply(`*DURACION Y HORARIO*\n\
 las clases comienzan este *13 de septiembre* El curso tiene una duracion de 12 dias, de 8:00AM-11:45AM\n\
 las clases seran de *lunes a sabado* por las plataformas MEET/ZOOM
 
@@ -331,7 +331,7 @@ Conocimiento y manipulación de Armas\n\
 					
 		if (budy.includes(`7`)) {
                   reply(`*NUMERO CELULAR DE LA ASESORA*\n\
-El numero de *atencion(llamadas)* es 956988585		  
+El numero de *atención(llamadas)* es 956988585 la Srta.Raquel	  
 		  
 		  
 		  
@@ -342,7 +342,7 @@ El numero de *atencion(llamadas)* es 956988585
 		
 		if (budy.includes(`8`)) {
                   reply(`EXAMENES*n/n
-los examenes seran depues de culminar cada modulo 
+Despues de culminar cada tema del *TEMARIO DE CLASES* se rendira un examen 
 		  
 		  
 		  `)

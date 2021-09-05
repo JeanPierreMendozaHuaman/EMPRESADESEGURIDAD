@@ -272,7 +272,7 @@ Si tienes dudas respecto a este curso, debes ingresar el numero de opcion elegid
 				
 		if (budy.includes(`1`)) {
                   reply(
-			  `*PRECIO*\n\
+			  `*PRECIO*
  El precio es de S/135 soles el cual incluye el certificado digital al culmunar los estudios`)
                   }
 

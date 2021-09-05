@@ -292,7 +292,7 @@ En caso use celular, Tablet o laptop estas tienen cámara, micrófono y audífon
                   }
 
 		if (budy.includes(`4`)) {
-                  reply(`VENEFICIOS Y VENTAJAS*\n\
+                  reply(`*VENEFICIOS Y VENTAJAS*\n\
 Acceso a una plataforma educativa virtual con capacitaciones previas para garantizar que usted tenga el dominio total de esta herramienta.Las clases serán grabadas y subidas a la plataforma web.
 Contará con un usuario y contraseña personal para realizar los exámenes.Tendrá mayor preferencia en la hora de postular para alguno de las infraestructuras a la cual prestamos servicios.
 Una vez culmine el curso de manera satisfactoria, estará inscrito en el sistema de la SUCAMEC, por lo que cualquier empresa de seguridad del Perú podrá verificar que usted está capacitado para ser Agente de 	Seguridad. 

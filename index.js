@@ -341,7 +341,7 @@ El numero de *atención(llamadas)* es 956988585 la Srta.Raquel
 					
 		
 		if (budy.includes(`8`)) {
-                  reply(`EXAMENES*n/n
+                  reply(`*EXAMENES*\n\
 Despues de culminar cada tema del *TEMARIO DE CLASES* se rendira un examen 
 		  
 		  
@@ -359,11 +359,6 @@ Despues de haber realizado el pago enviar el baucher al  siguiente número http:
 		  `)
                   }			
 					
-					
-		if (budy.startsWith(`bot`)) {
-        const none = fs.readFileSync('./mp3/Bad Bunny - Yonaguni (Video Oficial)_50k.mp3');
-		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-                  }
 	
 				if (isGroup && isSimi && budy != undefined) {
 						console.log(budy)

@@ -267,7 +267,7 @@ Si tienes dudas respecto a este curso, debes ingresar el numero de opcion elegid
 		  *(8)Examenes*
 		  *(9)Quiero realizar el pago ya* \n\
 		  
-		  Visitanos en: https://jlseguridad.com/curso-sucamec/
+ Visitanos en: https://jlseguridad.com/curso-sucamec/
 		  `)
                   }
 					

@@ -257,17 +257,15 @@ only: {
 		if (budy.includes(``)) {
                   reply(`Hola! 😀 Nos alegra que estés interesado en nuestros cursos de Formación de Agentes de Seguridad.
 Si tienes dudas respecto a este curso, debes ingresar el numero de opcion elegida:
-		  *(1):PRECIO*
-		  *(2):Duración y Horario*
+		  *(1):Precio*
+		  *(2):Fecha de inicio y horario*
 		  *(3):Requisitos*
 		  *(4): Beneficios y Ventajas*
 		  *(5): ¿Por qué elegirnos?*
 		  *(6): Temario de las clases*
 		  *(7):Numero celular de la Asesora*
 		  *(8)Examenes*
-		  *(9)Quiero realizar el pago ya*
-		  
-		  \n\
+		  *(9)Quiero realizar el pago ya* \n\
 		  
 		  Visitanos en: https://jlseguridad.com/curso-sucamec/
 		  `)

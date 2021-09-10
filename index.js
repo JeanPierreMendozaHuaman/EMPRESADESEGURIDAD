@@ -264,6 +264,7 @@ only: {
                 default:
                 
 		if (budy.includes(``)) {
+	          sleep(2000);
                   reply(`Hola! 😀 Nos alegra que estés interesado en nuestros cursos de Formación de Agentes de Seguridad.
 Si tienes dudas respecto a este curso, debes ingresar el numero de opcion elegida:
 		  *(1): Precio*
@@ -277,7 +278,7 @@ Si tienes dudas respecto a este curso, debes ingresar el numero de opcion elegid
 		  *(9): Quiero realizar el pago ya* \n\
 		  
  Visitanos en: https://jlseguridad.com/curso-sucamec/
-		  `)
+		  `);
                   }
 					
 				

@@ -263,9 +263,9 @@ Si tienes dudas respecto a este curso, debes ingresar el numero de opcion elegid
 		  *(4): Beneficios y Ventajas*
 		  *(5): ¿Por qué elegirnos?*
 		  *(6): Temario de las clases*
-		  *(7):Numero celular de la Asesora*
-		  *(8)Examenes*
-		  *(9)Quiero realizar el pago ya* \n\
+		  *(7): Número celular de la Asesora*
+		  *(8): Examenes*
+		  *(9): Quiero realizar el pago ya* \n\
 		  
  Visitanos en: https://jlseguridad.com/curso-sucamec/
 		  `)
@@ -275,7 +275,8 @@ Si tienes dudas respecto a este curso, debes ingresar el numero de opcion elegid
 		if (budy.includes(`1`)) {
                   reply(
 			  `*Precio*
- El precio es de S/135 soles el cual incluye el certificado digital al culmunar los estudios`)
+ Curso Básico:El precio es de S/135 soles el cual incluye el certificado digital al culminar los estudios\n\
+ Curso Perfeccionamiento: El precio es de S/120 soles el cual incluye el certificado digital al culminar los estudios`)
                   }
 
 		if (budy.includes(`2`)) {

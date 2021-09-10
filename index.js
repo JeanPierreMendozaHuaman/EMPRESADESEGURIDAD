@@ -283,52 +283,52 @@ Si tienes dudas respecto a este curso, debes ingresar el numero de opcion elegid
 				
 		if (budy.includes(`1`)) {
                   reply(
-			  `*Precio*\n\ 
+			  `*-----------Precio-----------*\n\ 
  *Curso Básico* :El precio es de S/135 soles el cual incluye el certificado digital al culminar los estudios\n\
- *Curso Perfeccionamiento*: El precio es de S/120 soles el cual incluye el certificado digital al culminar los estudios`);
-			sleep(6000);
+ *Curso Perfeccionamiento*: El precio es de S/120 soles el cual incluye el certificado digital al culminar los estudios`)
+			
                   }
 
 		if (budy.includes(`2`)) {
-                  reply(`*Fecha de Inicio y Horario*\n\
+                  reply(`*---Fecha de Inicio y Horario---*\n\
 las clases comienzan este *20 de septiembre* El curso tiene una duracion de 12 dias, de 8:00AM-11:45AM\n\
 las clases seran de *lunes a sabado* por las plataformas MEET/ZOOM
 
-		  `);
-			sleep(6000);
+		  `)
+			
                   }
 
 		if (budy.includes(`3`)) {
-                  reply(`*Requisitos para la clase*\n\
+                  reply(`*----Requisitos para la clase----*\n\
 Contar con un dispositivo con acceso a internet ejemplo: celular, Tablet, laptop, computadora En caso usara una computadora, esta debe tener una cámara y audífono externos. 
 En caso use celular, Tablet o laptop estas tienen cámara, micrófono y audífono incorporados. Por lo que no deberá preocupase en comprar más. Tener mayoría de edad (mínimo 18 años)	
-		  `);
-			sleep(6000);
+		  `)
+			
                   }
 
 		if (budy.includes(`4`)) {
-                  reply(`*VENEFICIOS Y VENTAJAS*\n\
+                  reply(`*-----BENEFICIOS Y VENTAJAS-----*\n\
 Acceso a una plataforma educativa virtual con capacitaciones previas para garantizar que usted tenga el dominio total de esta herramienta.Las clases serán grabadas y subidas a la plataforma web.
 Contará con un usuario y contraseña personal para realizar los exámenes.Tendrá mayor preferencia en la hora de postular para alguno de las infraestructuras a la cual prestamos servicios.
 Una vez culmine el curso de manera satisfactoria, estará inscrito en el sistema de la SUCAMEC, por lo que cualquier empresa de seguridad del Perú podrá verificar que usted está capacitado para ser Agente de 	Seguridad. 
 Una vez obtenga este certificado podrá continuar con los siguientes trámites para la obtención de licencia de arma. Ya que este curso es obligatorio para cualquier agente que desee obtener licencia de arma. 
 
 		  
-		  `);
-			sleep(6000);
+		  `)
+			
                   }
 					
 		if (budy.includes(`5`)) {
-                  reply(`*JL SEGURIDAD*\n\
+                  reply(`*----JL SEGURIDAD----*\n\
 La empresa tiene 20 años de fundacion en la cual hemos brindado clases virtuales a 850 personas de  las cuales el 95% de ellos ya tienen trabajo como Agente de Seguridad.
 Esto gracias al prestigio y experiencia que tiene la empresa. 
 		  
-		  `);
-			sleep(6000);
+		  `)
+			
                   }
                  
 		if (budy.includes(`6`)) {
-                  reply(`*TEMARIO DE LAS CLASES*\n\
+                  reply(`*-------TEMARIO DE LAS CLASES------*\n\
 Constitución y Derechos Humanos\n\
 Ética y Seguridad Privada\n\
 Legislación y Seguridad Privada\n\
@@ -342,30 +342,32 @@ Primeros Auxilios\n\
 Conocimiento y manipulación de Armas\n\
 		  
 		  
-		  `);
-			sleep(6000);
+		  `)
+			
                   }
 		
 					
 		if (budy.includes(`7`)) {
-                  reply(`*NUMERO CELULAR DE LA ASESORA*\n\
+                  reply(`*--NÚMERO CELULAR DE LA ASESORA--*\n\
 El numero de *atención(llamadas)* es 956988585 la Srta.Raquel	  
 		  
 		  
 		  
-		  `);
-			sleep(6000);
+		  `)
+			
                   }
 					
 					
 		
 		if (budy.includes(`8`)) {
-                  reply(`*EXAMENES*\n\
-Despues de culminar cada tema del *TEMARIO DE CLASES* se rendira un examen 
+                  reply(`*----EXÁMENES----*\n\
+Despues de culminar cada tema del *TEMARIO DE CLASES* se rendira un examen. Las pruebas serán relativamente fáciles ya que el instructor 20 minutos antes
+realizará un repaso general de cada tema para garantizar que el alumno pueda aprobar. Además las clases son grabadas y se subiran en la plataforma web con el
+fin de que el alumno pueda repasar o revisar algún tema. Por otro lado, en caso se presente alguna dificultad para realizar el examen, se tomará hasta 02 examenes de recuperación
 		  
 		  
-		  `);
-			sleep(6000);
+		  `)
+			
                   }
 					
 		
@@ -375,8 +377,8 @@ Numero de cuenta para realizar el pago
  
 https://drive.google.com/file/d/1jjv6SKzhjFcfkcuLk4G3o5tzVIrS99f0/view
 Despues de haber realizado el pago enviar el baucher al  siguiente número http://Wa.me/+51956988585
-		  `);
-			sleep(6000);
+		  `)
+			
                   }			
 					
 	

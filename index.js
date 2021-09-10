@@ -103,14 +103,25 @@ function addMetadata(packname, author) {
 	})	
 
 } 
-function sleep(milliseconds) {
- var start = new Date().getTime();
- for (var i = 0; i < 1e7; i++) {
-  if ((new Date().getTime() - start) > milliseconds) {
-   break;
-  }
- }
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
 }
+
+async function demo() {
+  console.log('Taking a break...');
+  await sleep(2000);
+  console.log('Two seconds later, showing sleep in a loop...');
+
+  // Sleep in loop
+  for (let i = 0; i < 5; i++) {
+    if (i === 3)
+      await sleep(2000);
+    console.log(i);
+  }
+}
+
+
 
 	
 function kyun(seconds){
@@ -286,7 +297,8 @@ Si tienes dudas respecto a este curso, debes ingresar el numero de opcion elegid
                   reply(
 			  `*-----------Precio-----------*\n\ 
  *Curso Básico* :El precio es de S/135 soles el cual incluye el certificado digital al culminar los estudios\n\
- *Curso Perfeccionamiento*: El precio es de S/120 soles el cual incluye el certificado digital al culminar los estudios`)
+ *Curso Perfeccionamiento*: El precio es de S/120 soles el cual incluye el certificado digital al culminar los estudios`);
+			demo();
 			
                   }
 
@@ -295,7 +307,8 @@ Si tienes dudas respecto a este curso, debes ingresar el numero de opcion elegid
 las clases comienzan este *20 de septiembre* El curso tiene una duracion de 12 dias, de 8:00AM-11:45AM\n\
 las clases seran de *lunes a sabado* por las plataformas MEET/ZOOM
 
-		  `)
+		  `);
+			demo();
 			
                   }
 
@@ -303,7 +316,8 @@ las clases seran de *lunes a sabado* por las plataformas MEET/ZOOM
                   reply(`*----Requisitos para la clase----*\n\
 Contar con un dispositivo con acceso a internet ejemplo: celular, Tablet, laptop, computadora En caso usara una computadora, esta debe tener una cámara y audífono externos. 
 En caso use celular, Tablet o laptop estas tienen cámara, micrófono y audífono incorporados. Por lo que no deberá preocupase en comprar más. Tener mayoría de edad (mínimo 18 años)	
-		  `)
+		  `);
+			demo();
 			
                   }
 

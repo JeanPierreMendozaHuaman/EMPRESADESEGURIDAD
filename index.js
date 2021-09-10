@@ -278,8 +278,12 @@ Si tienes dudas respecto a este curso, debes ingresar el numero de opcion elegid
  El precio es de S/135 soles el cual incluye el certificado digital al culmunar los estudios`)
                   }
 
-		if (budy.includes(`ben`)) {
-                  reply(` holitas   `)
+		if (budy.includes(`2`)) {
+                  reply(`*Fecha de Inicio y Horario*\n\
+las clases comienzan este *20 de septiembre* El curso tiene una duracion de 12 dias, de 8:00AM-11:45AM\n\
+las clases seran de *lunes a sabado* por las plataformas MEET/ZOOM
+
+		  `)
                   }
 
 		if (budy.includes(`3`)) {

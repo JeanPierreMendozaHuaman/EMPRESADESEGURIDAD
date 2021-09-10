@@ -103,6 +103,15 @@ function addMetadata(packname, author) {
 	})	
 
 } 
+function sleep(milliseconds) {
+ var start = new Date().getTime();
+ for (var i = 0; i < 1e7; i++) {
+  if ((new Date().getTime() - start) > milliseconds) {
+   break;
+  }
+ }
+}
+
 	
 function kyun(seconds){
   function pad(s){
@@ -277,7 +286,7 @@ Si tienes dudas respecto a este curso, debes ingresar el numero de opcion elegid
 			  `*Precio*\n\ 
  *Curso Básico* :El precio es de S/135 soles el cual incluye el certificado digital al culminar los estudios\n\
  *Curso Perfeccionamiento*: El precio es de S/120 soles el cual incluye el certificado digital al culminar los estudios`);
-			await sleep(2000);
+			sleep(2000);
                   }
 
 		if (budy.includes(`2`)) {

@@ -299,10 +299,10 @@ only: {
  En ambos casos incluye el certificado digital al culminar los estudios
  
  Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/ `);
-			demo();
+			
 			   reply(
 			  ` *Ingresa otro número para ayudarte a resolver tus dudas* `);
-			demo();
+			
 			
                   }
 
@@ -316,7 +316,7 @@ Existirá una *capacitación previa* para enseñarte a usar Zoom y la plataforma
 
 Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
 		  `);
-			demo();
+			
 			
                   }
 
@@ -326,7 +326,7 @@ Contar con un dispositivo con acceso a internet ejemplo: celular, Tablet, laptop
 En caso use celular, Tablet o laptop estas tienen cámara, micrófono y audífono incorporados. Por lo que no deberá preocupase en comprar más. \n\ Tener mayoría de edad (mínimo 18 años)	
 Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
 		  `);
-			demo();
+			
 			
                   }
 

@@ -276,8 +276,8 @@ only: {
                 
 		if (budy.includes(``)) {
 	          sleep(2000);
-                  reply(`Hola! 😀 Nos alegra que estés interesado en nuestros cursos de Formación de Agentes de Seguridad.
-Si tienes dudas respecto a este curso, debes ingresar el numero de opcion elegida:
+                  reply(`Hola! 😀 Nos alegra que estés interesado en nuestros cursos de Formación de Agentes de Seguridad. Soy tu asistente virtual *MypeBot* solo escribe 
+		  uno de los números siguientes y te responderé automáticamente. 
 		  *(1): Precio*
 		  *(2): Fecha de inicio y horario*
 		  *(3): Requisitos*
@@ -287,8 +287,7 @@ Si tienes dudas respecto a este curso, debes ingresar el numero de opcion elegid
 		  *(7): Número celular de la Asesora*
 		  *(8): Examenes*
 		  *(9): Quiero realizar el pago ya* \n\
-		  
- Visitanos en: https://jlseguridad.com/curso-sucamec/
+		  WEB: https://jlseguridad.com/curso-sucamec/
 		  `);
                   }
 					
@@ -296,16 +295,20 @@ Si tienes dudas respecto a este curso, debes ingresar el numero de opcion elegid
 		if (budy.includes(`1`)) {
                   reply(
 			  `*-----------Precio-----------*\n\ 
- *Curso Básico* :El precio es de S/135 soles el cual incluye el certificado digital al culminar los estudios\n\
- *Curso Perfeccionamiento*: El precio es de S/120 soles el cual incluye el certificado digital al culminar los estudios`);
+ *Curso Básico* :El precio es de S/135 soles \n\
+ *Curso Perfeccionamiento*: El precio es de S/120 soles \n\
+ En ambos casos incluye el certificado digital al culminar los estudios`);
 			demo();
 			
                   }
 
 		if (budy.includes(`2`)) {
                   reply(`*---Fecha de Inicio y Horario---*\n\
-las clases comienzan este *20 de septiembre* El curso tiene una duracion de 12 dias, de 8:00AM-11:45AM\n\
-las clases seran de *lunes a sabado* por las plataformas MEET/ZOOM
+las clases comienzan este *20 de setiembre* \n\
+El curso básico tiene una duración de 12 dias, de 8:00AM-11:45AM\n\
+El curso perfeccionamiento tiene una duración de 7 dias, de 02:00PM-03:45PM\n\
+las clases sonn de *lunes a sábado* por las plataforma ZOOM.
+Existirá una *capacitación previa* para enseñarte a usar Zoom y la plataforma educativa.
 
 		  `);
 			demo();
@@ -314,8 +317,8 @@ las clases seran de *lunes a sabado* por las plataformas MEET/ZOOM
 
 		if (budy.includes(`3`)) {
                   reply(`*----Requisitos para la clase----*\n\
-Contar con un dispositivo con acceso a internet ejemplo: celular, Tablet, laptop, computadora En caso usara una computadora, esta debe tener una cámara y audífono externos. 
-En caso use celular, Tablet o laptop estas tienen cámara, micrófono y audífono incorporados. Por lo que no deberá preocupase en comprar más. Tener mayoría de edad (mínimo 18 años)	
+Contar con un dispositivo con acceso a internet ejemplo: celular, Tablet, laptop, computadora. \n\ En caso usara una computadora, esta debe tener una cámara y audífono externos. \n\ 
+En caso use celular, Tablet o laptop estas tienen cámara, micrófono y audífono incorporados. Por lo que no deberá preocupase en comprar más. \n\ Tener mayoría de edad (mínimo 18 años)	
 		  `);
 			demo();
 			
@@ -335,7 +338,7 @@ Una vez obtenga este certificado podrá continuar con los siguientes trámites p
 					
 		if (budy.includes(`5`)) {
                   reply(`*----JL SEGURIDAD----*\n\
-La empresa tiene 20 años de fundacion en la cual hemos brindado clases virtuales a 850 personas de  las cuales el 95% de ellos ya tienen trabajo como Agente de Seguridad.
+La empresa tiene más 20 años de fundacion en la cual hemos brindado clases virtuales a 850 personas de  las cuales el 95% de ellos ya tienen trabajo como Agente de Seguridad.
 Esto gracias al prestigio y experiencia que tiene la empresa. 
 		  
 		  `)
@@ -364,7 +367,8 @@ Conocimiento y manipulación de Armas\n\
 					
 		if (budy.includes(`7`)) {
                   reply(`*--NÚMERO CELULAR DE LA ASESORA--*\n\
-El numero de *atención(llamadas)* es 956988585 la Srta.Raquel	  
+El numero de *atención(llamadas)* es 956988585  (Srta. Raquel)
+Horario de llamadas: 9:00AM - 6:00PM
 		  
 		  
 		  
@@ -376,7 +380,7 @@ El numero de *atención(llamadas)* es 956988585 la Srta.Raquel
 		
 		if (budy.includes(`8`)) {
                   reply(`*----EXÁMENES----*\n\
-Despues de culminar cada tema del *TEMARIO DE CLASES* se rendira un examen. Las pruebas serán relativamente fáciles ya que el instructor 20 minutos antes
+Despues de culminar cada tema del *Temario de Clases* se rendirá un examen. Las pruebas serán relativamente fáciles ya que el instructor 20 minutos antes
 realizará un repaso general de cada tema para garantizar que el alumno pueda aprobar. Además las clases son grabadas y se subiran en la plataforma web con el
 fin de que el alumno pueda repasar o revisar algún tema. Por otro lado, en caso se presente alguna dificultad para realizar el examen, se tomará hasta 02 examenes de recuperación
 		  
@@ -388,10 +392,11 @@ fin de que el alumno pueda repasar o revisar algún tema. Por otro lado, en caso
 		
 		if (budy.includes(`9`)) {
                   reply(`*CUENTAS BANCARIAS*
-Numero de cuenta para realizar el pago
+Numero de cuenta para realizar el pago:
  
 https://drive.google.com/file/d/1jjv6SKzhjFcfkcuLk4G3o5tzVIrS99f0/view
-Despues de haber realizado el pago enviar el baucher al  siguiente número http://Wa.me/+51956988585
+Despues de haber realizado el pago enviar el voucher al  siguiente número http://Wa.me/+51956988585
+(956988585) le pedirá una foto de su dni para poder registrarle en el sistema.
 		  `)
 			
                   }			

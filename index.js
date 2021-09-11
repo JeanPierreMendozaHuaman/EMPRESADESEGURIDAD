@@ -291,7 +291,7 @@ only: {
                   }
 					
 				
-		if (budy.includes(`1`)||budy.includes(`precio`)) {
+		if (budy.includes(`1`)||budy.includes(`precio`)|| budy.includes(`Precio`)) {
                   reply(
 			  `*-----------Precio-----------*\n\ 
  *Curso Básico* :El precio es de S/135 soles \n\
@@ -320,7 +320,7 @@ Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
 			
                   }
 
-		if (budy.includes(`3`)) {
+		if (budy.includes(`3`)||budy.includes(`requisitos`)||budy.includes(`Requisitos`)) {
                   reply(`*----Requisitos para la clase----*\n\
 Contar con un dispositivo con acceso a internet ejemplo: celular, Tablet, laptop, computadora. \n\ En caso usara una computadora, esta debe tener una cámara y audífono externos. \n\ 
 En caso use celular, Tablet o laptop estas tienen cámara, micrófono y audífono incorporados. Por lo que no deberá preocupase en comprar más. \n\ Tener mayoría de edad (mínimo 18 años)	

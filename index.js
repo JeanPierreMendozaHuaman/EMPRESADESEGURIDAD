@@ -284,14 +284,14 @@ only: {
 		  *(5): ¿Por qué elegirnos?*
 		  *(6): Temario de las clases*
 		  *(7): Número celular de la Asesora*
-		  *(8): Examenes*
+		  *(8): ¿Cómo son los Exámenes?*
 		  *(9): Quiero realizar el pago ya* \n\
 		  
 		  `);
                   }
 					
 				
-		if (budy.includes(`1`)) {
+		if (budy.includes(`1`)||budy.includes(`precio`)) {
                   reply(
 			  `*-----------Precio-----------*\n\ 
  *Curso Básico* :El precio es de S/135 soles \n\
@@ -306,9 +306,9 @@ only: {
 		if (budy.includes(`2`)) {
                   reply(`*---Fecha de Inicio y Horario---*\n\
 las clases comienzan este *20 de setiembre* \n\
-El curso básico tiene una duración de 12 dias, de 8:00AM-11:45AM\n\
-El curso perfeccionamiento tiene una duración de 7 dias, de 02:00PM-03:45PM\n\
-las clases sonn de *lunes a sábado* por las plataforma ZOOM.
+El curso *básico* tiene una duración de 12 dias, de 8:00AM-11:45AM\n\  \n\
+El curso *perfeccionamiento* tiene una duración de 7 días, de 02:00PM-05:45PM\n\  \n\
+Las clases son de *lunes a sábado* por la plataforma ZOOM. \n\ \n\
 Existirá una *capacitación previa* para enseñarte a usar Zoom y la plataforma educativa.
 
 Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
@@ -402,7 +402,7 @@ Numero de cuenta para realizar el pago:
 https://drive.google.com/file/d/1jjv6SKzhjFcfkcuLk4G3o5tzVIrS99f0/view
 Despues de haber realizado el pago enviar el voucher al  siguiente número http://Wa.me/+51956988585
 (956988585) le pedirá una foto de su dni para poder registrarle en el sistema.
-Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
+
 		  `)
 			
                   }			

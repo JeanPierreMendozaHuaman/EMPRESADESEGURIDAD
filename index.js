@@ -294,8 +294,8 @@ only: {
 		if (budy.includes(`1`)||budy.includes(`precio`)|| budy.includes(`Precio`)) {
                   reply(
 			  `*-----------Precio-----------*\n\ 
- *Curso Básico* :El precio es de S/135 soles \n\
- *Curso Perfeccionamiento*: El precio es de S/120 soles \n\
+ *Curso Básico | Para personas nuevas* :El precio es de S/135 soles \n\
+ *Curso Perfeccionamiento | Con curso vencido*: El precio es de S/120 soles \n\
  En ambos casos incluye el certificado digital al culminar los estudios
  
  Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/ \n\
@@ -382,8 +382,11 @@ Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
 					
 		if (budy.includes(`7`)) {
                   reply(`*--NÚMERO CELULAR DE LA ASESORA--*\n\
-El numero de *atención(llamadas)* es 956988585  (Srta. Raquel)
-Horario de llamadas: 9:00AM - 6:00PM
+El numero de *atención(llamadas)* es \n\
+956988585  (Srta. Raquel) ó
+982988287  (Srta. Pilar)
+
+Horario de llamadas: 9:00AM - 7:00PM
 
 Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/  
 *Ingresa otro número para ayudarte a resolver tus dudas* `)

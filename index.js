@@ -276,8 +276,7 @@ only: {
                 
 		if (budy.includes(``)) {
 	          sleep(2000);
-                  reply(`Hola! 😀 Nos alegra que estés interesado en nuestros cursos de Formación de Agentes de Seguridad. Soy tu asistente virtual *MypeBot* solo escribe 
-		  uno de los números siguientes y te responderé automáticamente. 
+                  reply(`Hola! 😀 Nos alegra que estés interesado en nuestros cursos de Formación de Agentes de Seguridad. Soy tu asistente virtual *MypeBot* solo escribe uno de los números siguientes y te responderé automáticamente. 
 		  *(1): Precio*
 		  *(2): Fecha de inicio y horario*
 		  *(3): Requisitos*
@@ -287,7 +286,7 @@ only: {
 		  *(7): Número celular de la Asesora*
 		  *(8): Examenes*
 		  *(9): Quiero realizar el pago ya* \n\
-		  WEB: https://jlseguridad.com/curso-sucamec/
+		  Web de la empresa JL Seguridad: https://bit.ly/2VymYVT
 		  `);
                   }
 					

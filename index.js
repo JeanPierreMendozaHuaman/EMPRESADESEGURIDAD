@@ -290,7 +290,31 @@ only: {
 		  `);
                   }
 					
-				
+		if (budy.includes(`info`)||budy.includes(`Info`)|| budy.includes(`Informacion`)) {
+                  reply(
+			  `*-----------Información-----------*\n\ 
+Los cursos que brindamos son para el público en general, para conocer temas sobre seguridad ciudadana y protocolos que usa un agente de seguridad.
+El uso que se le da a este curso principalmente es para la obtención del certificado sucamec, la cual acredita que eres una persona capacitada en seguridad, por lo que, podrás ejercer tu trabajo como Agente de Seguridad o Resguardo.
+Solo con esta acreditación las empresas de seguridad podrán contratarte, es por eso que este curso es requisito obligatorio al momento de postular como seguridad. Posteriormente, el curso también te servirá para que puedas iniciar con el trámite de obtención de Licencia de Arma.
+El cual es un proceso que dura alrededor de 06 meses.
+ 
+ Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/ \n\
+ *Ingresa otro número para ayudarte a resolver tus dudas* `);
+			
+			
+			
+                  }
+						if (budy.includes(`arma`)||budy.includes(`licencia de arma`)|| budy.includes(`pistola`)) {
+                  reply(
+			  `*-----------Información de licencia de arma-----------*\n\ 
+No brindamos asesoría para tramitar licencia de arma, solo a nuestros colaboradores que están contratados en la empresa JL Seguridad.  
+ Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/ \n\
+ *Ingresa otro número para ayudarte a resolver tus dudas* `);
+			
+			
+			
+                  }
+		
 		if (budy.includes(`1`)||budy.includes(`precio`)|| budy.includes(`Precio`)) {
                   reply(
 			  `*-----------Precio-----------*\n\ 
@@ -307,11 +331,15 @@ only: {
 
 		if (budy.includes(`2`)) {
                   reply(`*---Fecha de Inicio y Horario---*\n\
-las clases comienzan este *20 de setiembre* \n\
-El curso *básico* tiene una duración de 12 dias, de 8:00AM-11:45AM\n\  \n\
-El curso *perfeccionamiento* tiene una duración de 7 días, de 02:00PM-05:45PM\n\  \n\
+
+El curso *PERFECCIONAMIENTO* tiene una duración de 7 días, de 08:00AM-11:45PM.
+Inicio de clases *20 de Setiembre* \n\ \n\
+
+El curso *BÁSICO* tiene una duración de 12 dias, de 8:00AM-11:45AM.
+Inicio de clases *01 de Octubre * \n\  \n\
 Las clases son de *lunes a sábado* por la plataforma ZOOM. \n\ \n\
 Existirá una *capacitación previa* para enseñarte a usar Zoom y la plataforma educativa.
+Link de la plataforma educativa: https://jlseguridad.moodlecloud.com/
 
 Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
 *Ingresa otro número para ayudarte a resolver tus dudas*
@@ -383,8 +411,7 @@ Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
 		if (budy.includes(`7`)) {
                   reply(`*--NÚMERO CELULAR DE LA ASESORA--*\n\
 El numero de *atención(llamadas)* es \n\
-956988585  (Srta. Raquel) ó
-982988287  (Srta. Pilar)
+956988585  (Srta. Raquel)
 
 Horario de llamadas: 9:00AM - 7:00PM
 
@@ -413,7 +440,7 @@ Numero de cuenta para realizar el pago:
 https://drive.google.com/file/d/1jjv6SKzhjFcfkcuLk4G3o5tzVIrS99f0/view
 Despues de haber realizado el pago enviar el voucher al  siguiente número http://Wa.me/+51956988585
 (956988585) le pedirá una foto de su dni para poder registrarle en el sistema.
-*Ingresa otro número para ayudarte a resolver tus dudas*  `)
+*Gracias por confiar en JL Seguridad | Formación Virtual*  `)
 			
                   }			
 					

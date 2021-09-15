@@ -276,7 +276,7 @@ only: {
                 
 		if (budy.includes(``)) {
 	          
-                  reply(`Hola! 😀 Nos alegra que estés interesado en nuestros cursos de Formación de Agentes de Seguridad. Soy tu asistente virtual *MypeBot* solo escribe uno de los números siguientes y te responderé automáticamente. 
+                  reply(`Hola! 😀 Nos alegra que estés interesado en nuestros cursos de Formación de Agentes de Seguridad. Soy tu asistente virtual *MypeBot.com* solo escribe uno de los números siguientes y te responderé automáticamente. 
 		  *(1): Precio*
 		  *(2): Fecha de inicio y horario*
 		  *(3): Requisitos*

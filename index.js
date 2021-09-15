@@ -320,8 +320,10 @@ No brindamos asesoría para tramitar licencia de arma, solo a nuestros colaborad
                   reply(
 			  `*-----------Precio-----------*\n\ 
  *Curso Básico | Para personas nuevas* :El precio es de S/135 soles \n\
+ 
  *Curso Perfeccionamiento | Con curso vencido*: El precio es de S/120 soles \n\
- En ambos casos incluye el certificado digital al culminar los estudios
+ 
+ En ambos casos incluye el certificado digital al culminar los estudios. La cual estará firmado por el Instructor, por el Gerente General y acreditado por el Gobierno del Perú.
  
  Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/ \n\
  *Ingresa otro número para ayudarte a resolver tus dudas* `);

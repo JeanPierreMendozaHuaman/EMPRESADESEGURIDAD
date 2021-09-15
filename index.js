@@ -337,7 +337,7 @@ El curso *PERFECCIONAMIENTO* tiene una duración de 7 días, de 08:00AM-11:45PM.
 Inicio de clases *20 de Setiembre* \n\ \n\
 
 El curso *BÁSICO* tiene una duración de 12 dias, de 8:00AM-11:45AM.
-Inicio de clases *01 de Octubre * \n\  \n\
+Inicio de clases *01 de Octubre* \n\  \n\
 Las clases son de *lunes a sábado* por la plataforma ZOOM. \n\ \n\
 Existirá una *capacitación previa* para enseñarte a usar Zoom y la plataforma educativa.
 Link de la plataforma educativa: https://jlseguridad.moodlecloud.com/
@@ -425,9 +425,9 @@ Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
 		
 		if (budy.includes(`8`)) {
                   reply(`*----EXÁMENES----*\n\
-Despues de culminar cada tema del *Temario de Clases* se rendirá un examen. Las pruebas serán relativamente fáciles ya que el instructor 20 minutos antes
-realizará un repaso general de cada tema para garantizar que el alumno pueda aprobar. Además las clases son grabadas y se subiran en la plataforma web con el
-fin de que el alumno pueda repasar o revisar algún tema. Por otro lado, en caso se presente alguna dificultad para realizar el examen, se tomará hasta 02 examenes de recuperación
+Al finalizar cada capítulo del temario usted rendirá un examen.Para ello el instructor 20 minutos antes realizará un repaso general de cada tema para garantizar que el alumno pueda aprobar. 
+Por otra parte, las clases son grabadas y se subiran en la plataforma web con el fin de que el alumno pueda repasar o revisar algún tema. 
+Finalmente, en caso se presente alguna dificultad para realizar el examen, se tomará hasta 02 examenes de recuperación
 Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/	
 *Ingresa otro número para ayudarte a resolver tus dudas* `)
 			
@@ -436,7 +436,7 @@ Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
 		
 		if (budy.includes(`9`)||budy.includes(`pagar`)||budy.includes(`cuenta`)) {
                   reply(`*CUENTAS BANCARIAS*
-Numero de cuenta para realizar el pago:
+Numeros de cuenta para realizar el pago, las cuales están a nombre de la empresa JL Seguridad:
  
 https://drive.google.com/file/d/1jjv6SKzhjFcfkcuLk4G3o5tzVIrS99f0/view
 Despues de haber realizado el pago enviar el voucher al  siguiente número WhatsApp http://Wa.me/+51956988585

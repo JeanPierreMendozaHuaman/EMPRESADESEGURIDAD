@@ -10,6 +10,7 @@ const {
 /******COMIENZO DE LA ENTRADA DEL ARCHIVO******/
 const { color, bgcolor } = require('./lib/color')
 const { bahasa } = require('./src/bahasa')
+
 const { negara } = require('./src/kodenegara')
 const { virtex } = require('./src/virtex')
 const { wait, pegatinas, musica, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRandom, banner, start, info, success, close } = require('./lib/functions')
@@ -276,7 +277,7 @@ only: {
                 
 		if (budy.includes(``)) {
 	          
-                  reply(`Hola! 😀 Nos alegra que estés interesado en nuestros cursos de Formación de Agentes de Seguridad. Soy tu asistente virtual *MypeBot.com* solo escribe uno de los números siguientes y te responderé automáticamente. 
+                  reply(`Hola! 😀 Nos alegra que estés interesado en nuestros cursos de Formación de Agentes de Seguridad. Soy tu asistente virtual *MypeBot.com* solo escribe uno de los siguientes *números* y te responderé automáticamente. 
 		  *(1): Precio*
 		  *(2): Fecha de inicio y horario*
 		  *(3): Requisitos*

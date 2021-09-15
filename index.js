@@ -288,6 +288,7 @@ only: {
 		  *(8): ¿Cómo son los Exámenes?*
 		  *(9): Quiero realizar el pago ya* \n\
 		  
+		  Si deseas conversar de manera telefónica con una de nuestras asesoras comunícate al: 956988585
 		  `);
                   }
 					

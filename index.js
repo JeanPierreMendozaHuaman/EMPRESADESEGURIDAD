@@ -277,7 +277,7 @@ only: {
                 
 		if (budy.includes(``)) {
 	          
-                  reply(`Hola! 😀 Nos alegra que estés interesado en nuestros cursos de Formación de Agentes de Seguridad. Soy tu asistente virtual *MypeBot.com* solo escribe uno de los siguientes *números* y te responderé automáticamente. 
+                  reply(`Hola! 😀 Nos alegra que estés interesado en nuestros cursos de *Formación de Agentes de Seguridad | Organizado por JL Seguridad*. Soy tu asistente virtual *MypeBot.com* solo escribe uno de los siguientes *números* y te responderé automáticamente. 
 		  *(1): Precio*
 		  *(2): Fecha de inicio y horario*
 		  *(3): Requisitos*
@@ -409,7 +409,7 @@ Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
                   }
 		
 					
-		if (budy.includes(`7`)) {
+		if (budy.includes(`7`)||budy.includes(`celular`)) {
                   reply(`*--NÚMERO CELULAR DE LA ASESORA--*\n\
 El numero de *atención(llamadas)* es \n\
 956988585  (Srta. Raquel)
@@ -434,13 +434,13 @@ Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
                   }
 					
 		
-		if (budy.includes(`9`)) {
+		if (budy.includes(`9`)||budy.includes(`pagar`)||budy.includes(`cuenta`)) {
                   reply(`*CUENTAS BANCARIAS*
 Numero de cuenta para realizar el pago:
  
 https://drive.google.com/file/d/1jjv6SKzhjFcfkcuLk4G3o5tzVIrS99f0/view
-Despues de haber realizado el pago enviar el voucher al  siguiente número http://Wa.me/+51956988585
-(956988585) le pedirá una foto de su dni para poder registrarle en el sistema.
+Despues de haber realizado el pago enviar el voucher al  siguiente número WhatsApp http://Wa.me/+51956988585
+(956988585 - Srta. Raquel) le pedirá una foto de su dni para poder registrarle en el sistema.
 *Gracias por confiar en JL Seguridad | Formación Virtual*  `)
 			
                   }			

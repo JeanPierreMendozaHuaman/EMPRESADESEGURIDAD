@@ -305,7 +305,7 @@ El cual es un proceso que dura alrededor de 06 meses.
 			
 			
                   }
-						if (budy.includes(`arma`)||budy.includes(`licencia de arma`)|| budy.includes(`pistola`) ||budy.includes(`licencia`) ) {
+						if (budy.includes(`arma`)||budy.includes(`licencia de arma`)|| budy.includes(`pistola`) ||budy.includes(`licencia`)||budy.includes(`Licencia`)  ) {
                   reply(
 			  `*-----------Información de licencia de arma-----------*\n\ 
 No brindamos asesoría para tramitar licencia de arma, solo a nuestros colaboradores que están contratados en la empresa JL Seguridad.  

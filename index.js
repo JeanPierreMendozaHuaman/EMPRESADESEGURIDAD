@@ -434,7 +434,7 @@ El numero de *atención(llamadas)* es \n\
 					
 					
 		
-		if (budy.includes(`8`)||) {
+		if (budy.includes(`8`)) {
                   reply(`*----EXÁMENES----*\n\
 Al finalizar cada capítulo del temario usted rendirá un examen. Para ello el instructor 20 minutos antes realizará un repaso general de cada tema para garantizar que el participante pueda aprobar. 
 Las clases son grabadas y se subiran en la plataforma web con el fin de que el participante pueda repasar o revisar algún tema. 

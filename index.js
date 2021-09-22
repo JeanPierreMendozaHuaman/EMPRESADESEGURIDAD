@@ -277,7 +277,7 @@ only: {
                 
 		if (budy.includes(``)) {
 	          
-                  reply(`Hola! 😀 Nos alegra que estés interesado en nuestros cursos de *Formación de Agentes de Seguridad | Organizado por JL Seguridad*. Soy tu asistente virtual *MypeBot.com* solo escribe uno de los siguientes *números* y te responderé automáticamente. 
+                  reply(`Hola! 😀 Nos alegra que estés interesado en nuestros cursos de *Formación de Agentes de Seguridad | Organizado por JL Seguridad*. Soy tu Asistente Virtual 🤖 *MypeBot.com* Solo escribe uno de los siguientes *números* (por ejemplo: *1* )y te responderé automáticamente. 
 		  *(1): 💲Precio*
 		  *(2): 📅Fecha de inicio y horario*
 		  *(3): 📂Requisitos*
@@ -302,7 +302,7 @@ El cual es un proceso que dura alrededor de 06 meses.
  
  Web de la empresa JL Seguridad: 
  🌐https://jlseguridad.com/curso-sucamec/ \n\
- *Ingresa otro número para ayudarte a resolver tus dudas* `);
+ *🤖Ingresa otro número para ayudarte a resolver tus dudas* `);
 			
 			
 			
@@ -313,7 +313,7 @@ El cual es un proceso que dura alrededor de 06 meses.
 No brindamos asesoría para tramitar licencia de arma, solo a nuestros colaboradores que están contratados en la empresa JL Seguridad.  
  Web de la empresa JL Seguridad: 
  🌐https://jlseguridad.com/curso-sucamec/ \n\
- *Ingresa otro número para ayudarte a resolver tus dudas* `);
+ *🤖Ingresa un número para ayudarte a resolver tus dudas* `);
 			
 			
 			
@@ -321,7 +321,7 @@ No brindamos asesoría para tramitar licencia de arma, solo a nuestros colaborad
 		
 		if (budy.includes(`1`)||budy.includes(`precio`)|| budy.includes(`Precio`) || budy.includes(`Costo`)||budy.includes(`costo`)) {
                   reply(
-			  `*-----------Precio-----------*\n\ 
+			  `*-----------💲Precio-----------*\n\ 
  *Curso Básico | Para personas nuevas* :El precio es de S/135 soles \n\
  
  *Curso Perfeccionamiento | Con curso vencido*: El precio es de S/120 soles \n\
@@ -350,27 +350,27 @@ Link de la plataforma educativa: https://jlseguridad.moodlecloud.com/
 
 Web de la empresa JL Seguridad: 
 🌐https://jlseguridad.com/curso-sucamec/
-*Ingresa otro número para ayudarte a resolver tus dudas*
+*🤖Ingresa otro número para ayudarte a resolver tus dudas*
 		  `);
 			
 			
                   }
 
 		if (budy.includes(`3`)||budy.includes(`requisitos`)||budy.includes(`Requisitos`)) {
-                  reply(`*----Requisitos para la clase----*\n\
+                  reply(`*----📂Requisitos para la clase----*\n\
 Contar con un dispositivo con acceso a internet ejemplo: celular, Tablet, laptop, computadora. \n\ En caso usara una computadora, esta debe tener una cámara y audífono externos. \n\ 
 En caso use celular, Tablet o laptop estas tienen cámara, micrófono y audífono incorporados. Por lo que no deberá preocupase en comprar más. \n\ Tener mayoría de edad (mínimo 18 años)	
 
 Web de la empresa JL Seguridad: 
 🌐https://jlseguridad.com/curso-sucamec/
-*Ingresa otro número para ayudarte a resolver tus dudas*
+*🤖Ingresa otro número para ayudarte a resolver tus dudas*
 		  `);
 			
 			
                   }
 
 		if (budy.includes(`4`)||budy.includes(`beneficios`)||budy.includes(`Beneficios`)||budy.includes(`ventajas`)||budy.includes(`Ventajas`)) {
-                  reply(`*-----BENEFICIOS Y VENTAJAS-----*\n\
+                  reply(`*-----📌BENEFICIOS Y VENTAJAS-----*\n\
 ✅Acceso a una plataforma educativa virtual con capacitaciones previas para garantizar que usted tenga el dominio total de esta herramienta.
 ✅Las clases serán grabadas y subidas a la plataforma web.
 ✅Contará con un usuario y contraseña personal para realizar los exámenes.Tendrá mayor preferencia en la hora de postular para alguno de las infraestructuras a la cual prestamos servicios.
@@ -385,12 +385,16 @@ Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
                   }
 					
 		if (budy.includes(`5`)) {
-                  reply(`*----JL SEGURIDAD----*\n\
-La empresa tiene más 20 años de fundacion en la cual hemos brindado clases virtuales a 850 personas de  las cuales el 95% de ellos ya tienen trabajo como Agente de Seguridad.
-Esto gracias al prestigio y experiencia que tiene la empresa.
+                  reply(`*----👨JL SEGURIDAD----*\n\
+La empresa tiene más 20 años de fundacion en la cual hemos brindado clases virtuales a más de 1500 personas de  las cuales el 95% de ellos ya tienen trabajo como Agente de Seguridad.
+Esto gracias al prestigio (Contamos con certificaciones ISO Trinorma) y experiencia.
+Nuestro objetivo es que cuentes con las acreditaciones y certificaciones para que puedas postular a cualquier puesto donde se requiera un agente de seguridad.
+Sabías que actualmente hay más de 90,000 puestos de trabajo para agentes de seguridad en todo el Perú. Y que se requiere anualmente un promedio de 8,000 nuevos agentes que cubran los puestos de los que se van retirando.
+Adquiere las acreditaciones con nosotros y sé el mejor agente de seguridad.
+
 Web de la empresa JL Seguridad: 
 🌐 https://jlseguridad.com/curso-sucamec/
-*Ingresa otro número para ayudarte a resolver tus dudas*
+*🤖Ingresa otro número para ayudarte a resolver tus dudas*
 		  
 		  `)
 			
@@ -412,7 +416,7 @@ Web de la empresa JL Seguridad:
 
 Web de la empresa JL Seguridad: 
 🌐https://jlseguridad.com/curso-sucamec/
-*Ingresa otro número para ayudarte a resolver tus dudas*
+*🤖Ingresa otro número para ayudarte a resolver tus dudas*
 		  
 		  
 		  `)
@@ -428,7 +432,7 @@ El numero de *atención(llamadas)* es \n\
 🕰Horario de llamadas: 9:00AM - 7:00PM
 
 🌐Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/  
-*Ingresa otro número para ayudarte a resolver tus dudas* `)
+*🤖Ingresa otro número para ayudarte a resolver tus dudas* `)
 			
                   }
 					
@@ -440,7 +444,7 @@ Al finalizar cada capítulo del temario usted rendirá un examen. Para ello el i
 Las clases son grabadas y se subiran en la plataforma web con el fin de que el participante pueda repasar o revisar algún tema. 
 Finalmente, en caso se presente alguna dificultad para realizar el examen, se tomará le brindará la opción de 3 intentos por cada examen.
 Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/	
-*Ingresa otro número para ayudarte a resolver tus dudas* `)
+*🤖Ingresa otro número para ayudarte a resolver tus dudas* `)
 			
                   }
 					
@@ -452,7 +456,7 @@ Numeros de cuenta para realizar el pago, las cuales están a nombre de la empres
 https://drive.google.com/file/d/1jjv6SKzhjFcfkcuLk4G3o5tzVIrS99f0/view
 Despues de haber realizado el pago enviar el voucher al  siguiente número WhatsApp http://Wa.me/+51956988585
 (956988585 - Srta. Raquel) le pedirá una foto de su dni para poder registrarle en el sistema.
-*Gracias por confiar en JL Seguridad 😀 | Formación Virtual*  `)
+*🤖Gracias por confiar en JL Seguridad 😀 | Formación Virtual*  `)
 			
                   }			
 					

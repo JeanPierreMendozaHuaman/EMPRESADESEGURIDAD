@@ -296,10 +296,11 @@ only: {
 		if (budy.includes(`0`)||budy.includes(`info`)||budy.includes(`Info`)|| budy.includes(`Informacion`)) {
                   reply(
 			  `*-----------Información-----------*\n\ 
-Los cursos que brindamos son para el público en general, para conocer temas sobre seguridad ciudadana y protocolos que usa un agente de seguridad.
-El uso que se le da a este curso principalmente es para la obtención del certificado sucamec, la cual acredita que eres una persona capacitada en seguridad, por lo que, podrás ejercer tu trabajo como Agente de Seguridad o Resguardo.
-Solo con esta acreditación las empresas de seguridad podrán contratarte, es por eso que este curso es requisito obligatorio al momento de postular como seguridad. Posteriormente, el curso también te servirá para que puedas iniciar con el trámite de obtención de Licencia de Arma.
-El cual es un proceso que dura alrededor de 06 meses.
+✅Los cursos que brindamos son para el público en general, para conocer temas sobre seguridad ciudadana y protocolos que usa un agente de seguridad.
+✅El uso que se le da a este curso principalmente es para la obtención del certificado sucamec, la cual acredita que eres una persona capacitada en seguridad, por lo que, podrás ejercer tu trabajo como Agente de Seguridad o Resguardo.
+✅Solo con esta acreditación las empresas de seguridad podrán contratarte, es por eso que este curso es requisito obligatorio al momento de postular como seguridad. 
+✅Posteriormente, el curso también te servirá para que puedas iniciar con el trámite de obtención de Licencia de Arma.
+
  
  Web de la empresa JL Seguridad: 
  🌐https://jlseguridad.com/curso-sucamec/ \n\
@@ -359,9 +360,12 @@ Web de la empresa JL Seguridad:
 
 		if (budy.includes(`3`)||budy.includes(`requisitos`)||budy.includes(`Requisitos`)) {
                   reply(`*----📂Requisitos para la clase----*\n\
-Contar con un dispositivo con acceso a internet ejemplo: celular, Tablet, laptop, computadora. \n\ En caso usara una computadora, esta debe tener una cámara y audífono externos. \n\ 
-En caso use celular, Tablet o laptop estas tienen cámara, micrófono y audífono incorporados. Por lo que no deberá preocupase en comprar más. \n\ Tener mayoría de edad (mínimo 18 años)	
-
+✔️Contar con un dispositivo con acceso a internet ejemplo: celular, Tablet, laptop, computadora. \n\ 
+✔️En caso usara una computadora, esta debe tener una cámara y audífono externos. \n\ 
+✔️En caso use celular, Tablet o laptop estas tienen cámara, micrófono y audífono incorporados. Por lo que no deberá preocupase en comprar más. 
+✔️Tener mayoría de edad (mínimo 18 años)	
+✔️No hay distinción de sexo, el curso puede ser para hombre o mujer
+✔️Tener su DNI físico o C4
 Web de la empresa JL Seguridad: 
 🌐https://jlseguridad.com/curso-sucamec/
 *🤖Ingresa otro número para ayudarte a resolver tus dudas*
@@ -387,11 +391,11 @@ Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
 					
 		if (budy.includes(`5`)) {
                   reply(`*----👨JL SEGURIDAD----*\n\
-La empresa tiene más 20 años de fundacion en la cual hemos brindado clases virtuales a más de 1500 personas de  las cuales el 95% de ellos ya tienen trabajo como Agente de Seguridad.
-Esto gracias al prestigio (Contamos con certificaciones ISO Trinorma) y experiencia.
-Nuestro objetivo es que cuentes con las acreditaciones y certificaciones para que puedas postular a cualquier puesto donde se requiera un agente de seguridad.
-Sabías que actualmente hay más de 90,000 puestos de trabajo para agentes de seguridad en todo el Perú. Y que se requiere anualmente un promedio de 8,000 nuevos agentes que cubran los puestos de los que se van retirando.
-Adquiere las acreditaciones con nosotros y sé el mejor agente de seguridad.
+✔️La empresa tiene más 20 años de fundacion en la cual hemos brindado clases virtuales a más de 1500 personas de  las cuales el 95% de ellos ya tienen trabajo como Agente de Seguridad.
+Esto gracias al prestigio (Contamos con certificaciones *ISO Trinorma* ) y experiencia.
+✔️Nuestro objetivo es que cuentes con las acreditaciones y certificaciones para que puedas postular a cualquier puesto donde se requiera un agente de seguridad.
+👁‍🗨Sabías que actualmente hay más de 90,000 puestos de trabajo para agentes de seguridad en todo el Perú. Y que se requiere anualmente un promedio de 8,000 nuevos agentes que cubran los puestos de los que se van retirando.
+Adquiere las acreditaciones con nosotros y sé el 💪🏻 *Mejor Agente de Seguridad* 
 
 Web de la empresa JL Seguridad: 
 🌐 https://jlseguridad.com/curso-sucamec/
@@ -455,8 +459,9 @@ Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
 Numeros de cuenta para realizar el pago, las cuales están a nombre de la empresa JL Seguridad:
  
 https://drive.google.com/file/d/1jjv6SKzhjFcfkcuLk4G3o5tzVIrS99f0/view
-Despues de haber realizado el pago enviar el voucher al  siguiente número WhatsApp http://Wa.me/+51956988585
-(956988585 - Srta. Raquel) le pedirá una foto de su dni para poder registrarle en el sistema.
+
+✔️Despues de haber realizado el pago enviar el voucher al  siguiente número WhatsApp http://Wa.me/+51956988585
+✔️( 956988585 - Srta. Raquel) le pedirá una foto de su dni para poder registrarle en el sistema.
 *🤖Gracias por confiar en JL Seguridad 😀 | Formación Virtual*  `)
 			
                   }			

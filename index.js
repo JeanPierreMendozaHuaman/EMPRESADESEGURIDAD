@@ -278,15 +278,15 @@ only: {
 		if (budy.includes(``)) {
 	          
                   reply(`Hola! 😀 Nos alegra que estés interesado en nuestros cursos de *Formación de Agentes de Seguridad | Organizado por JL Seguridad*. Soy tu asistente virtual *MypeBot.com* solo escribe uno de los siguientes *números* y te responderé automáticamente. 
-		  *(1): Precio*
-		  *(2): Fecha de inicio y horario*
-		  *(3): Requisitos*
-		  *(4): Beneficios y Ventajas*
-		  *(5): ¿Por qué elegirnos?*
-		  *(6): Temario de las clases*
-		  *(7): Número celular de la Asesora*
-		  *(8): ¿Cómo son los Exámenes?*
-		  *(9): Quiero realizar el pago ya* \n\
+		  *(1): 💲Precio*
+		  *(2): 📅Fecha de inicio y horario*
+		  *(3): 📂Requisitos*
+		  *(4): 📌Beneficios y Ventajas*
+		  *(5): 👨🏼‍✈️¿Por qué elegirnos?*
+		  *(6): 📜Temario de las clases*
+		  *(7): 📞Número celular de la Asesora*
+		  *(8): 📝¿Cómo son los Exámenes?*
+		  *(9): 🤩Quiero realizar el pago ya* \n\
 		  
 		  Y si deseas conversar de manera telefónica con una de nuestras asesoras comunícate al: 956988585 - Srta Raquel
 		  `);
@@ -300,7 +300,8 @@ El uso que se le da a este curso principalmente es para la obtención del certif
 Solo con esta acreditación las empresas de seguridad podrán contratarte, es por eso que este curso es requisito obligatorio al momento de postular como seguridad. Posteriormente, el curso también te servirá para que puedas iniciar con el trámite de obtención de Licencia de Arma.
 El cual es un proceso que dura alrededor de 06 meses.
  
- Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/ \n\
+ Web de la empresa JL Seguridad: 
+ 🌐https://jlseguridad.com/curso-sucamec/ \n\
  *Ingresa otro número para ayudarte a resolver tus dudas* `);
 			
 			
@@ -310,14 +311,15 @@ El cual es un proceso que dura alrededor de 06 meses.
                   reply(
 			  `*-----------Información de licencia de arma-----------*\n\ 
 No brindamos asesoría para tramitar licencia de arma, solo a nuestros colaboradores que están contratados en la empresa JL Seguridad.  
- Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/ \n\
+ Web de la empresa JL Seguridad: 
+ 🌐https://jlseguridad.com/curso-sucamec/ \n\
  *Ingresa otro número para ayudarte a resolver tus dudas* `);
 			
 			
 			
                   }
 		
-		if (budy.includes(`1`)||budy.includes(`precio`)|| budy.includes(`Precio`)) {
+		if (budy.includes(`1`)||budy.includes(`precio`)|| budy.includes(`Precio`) || budy.includes(`Costo`)||budy.includes(`costo`)) {
                   reply(
 			  `*-----------Precio-----------*\n\ 
  *Curso Básico | Para personas nuevas* :El precio es de S/135 soles \n\
@@ -326,18 +328,19 @@ No brindamos asesoría para tramitar licencia de arma, solo a nuestros colaborad
  
  En ambos casos incluye el certificado digital al culminar los estudios. La cual estará firmado por el Instructor, por el Gerente General y acreditado por el Gobierno del Perú.
  
- Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/ \n\
+ Web de la empresa JL Seguridad: 
+ 🌐https://jlseguridad.com/curso-sucamec/ \n\
  *Ingresa otro número para ayudarte a resolver tus dudas* `);
 			
 			
 			
                   }
 
-		if (budy.includes(`2`)) {
+		if (budy.includes(`2`)|| budy.includes(`cuando`)||budy.includes(`cuándo`)||budy.includes(`Cuándo`)||budy.includes(`Cuando`)||budy.includes(`fecha`)||budy.includes(`Fecha`)||budy.includes(`horario`)||budy.includes(`Hora`)||budy.includes(`hora`)||budy.includes(`horario`)		) {
                   reply(`*---Fecha de Inicio y Horario---*\n\
 
 El curso *PERFECCIONAMIENTO* tiene una duración de 7 días, de 08:00AM-11:45PM.
-Inicio de clases *20 de Setiembre* \n\ \n\
+Inicio de clases *11 de Octubre* \n\ \n\
 
 El curso *BÁSICO* tiene una duración de 12 dias, de 8:00AM-11:45AM.
 Inicio de clases *01 de Octubre* \n\  \n\
@@ -345,7 +348,8 @@ Las clases son de *lunes a sábado* por la plataforma ZOOM. \n\ \n\
 Existirá una *capacitación previa* para enseñarte a usar Zoom y la plataforma educativa.
 Link de la plataforma educativa: https://jlseguridad.moodlecloud.com/
 
-Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
+Web de la empresa JL Seguridad: 
+🌐https://jlseguridad.com/curso-sucamec/
 *Ingresa otro número para ayudarte a resolver tus dudas*
 		  `);
 			
@@ -357,19 +361,21 @@ Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
 Contar con un dispositivo con acceso a internet ejemplo: celular, Tablet, laptop, computadora. \n\ En caso usara una computadora, esta debe tener una cámara y audífono externos. \n\ 
 En caso use celular, Tablet o laptop estas tienen cámara, micrófono y audífono incorporados. Por lo que no deberá preocupase en comprar más. \n\ Tener mayoría de edad (mínimo 18 años)	
 
-Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
+Web de la empresa JL Seguridad: 
+🌐https://jlseguridad.com/curso-sucamec/
 *Ingresa otro número para ayudarte a resolver tus dudas*
 		  `);
 			
 			
                   }
 
-		if (budy.includes(`4`)) {
+		if (budy.includes(`4`)||budy.includes(`beneficios`)||budy.includes(`Beneficios`)||budy.includes(`ventajas`)||budy.includes(`Ventajas`)) {
                   reply(`*-----BENEFICIOS Y VENTAJAS-----*\n\
-Acceso a una plataforma educativa virtual con capacitaciones previas para garantizar que usted tenga el dominio total de esta herramienta.Las clases serán grabadas y subidas a la plataforma web.
-Contará con un usuario y contraseña personal para realizar los exámenes.Tendrá mayor preferencia en la hora de postular para alguno de las infraestructuras a la cual prestamos servicios.
-Una vez culmine el curso de manera satisfactoria, estará inscrito en el sistema de la SUCAMEC, por lo que cualquier empresa de seguridad del Perú podrá verificar que usted está capacitado para ser Agente de 	Seguridad. 
-Una vez obtenga este certificado podrá continuar con los siguientes trámites para la obtención de licencia de arma. Ya que este curso es obligatorio para cualquier agente que desee obtener licencia de arma. 
+✅Acceso a una plataforma educativa virtual con capacitaciones previas para garantizar que usted tenga el dominio total de esta herramienta.
+✅Las clases serán grabadas y subidas a la plataforma web.
+✅Contará con un usuario y contraseña personal para realizar los exámenes.Tendrá mayor preferencia en la hora de postular para alguno de las infraestructuras a la cual prestamos servicios.
+✅Una vez culmine el curso de manera satisfactoria, estará inscrito en el sistema de la SUCAMEC, por lo que cualquier empresa de seguridad del Perú podrá verificar que usted está capacitado para ser Agente de Seguridad. 
+✅Una vez obtenga este certificado podrá continuar con los siguientes trámites para la obtención de licencia de arma. Ya que este curso es obligatorio para cualquier agente que desee obtener licencia de arma. 
 
 Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
 *Ingresa otro número para ayudarte a resolver tus dudas*
@@ -382,7 +388,8 @@ Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
                   reply(`*----JL SEGURIDAD----*\n\
 La empresa tiene más 20 años de fundacion en la cual hemos brindado clases virtuales a 850 personas de  las cuales el 95% de ellos ya tienen trabajo como Agente de Seguridad.
 Esto gracias al prestigio y experiencia que tiene la empresa.
-Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
+Web de la empresa JL Seguridad: 
+🌐 https://jlseguridad.com/curso-sucamec/
 *Ingresa otro número para ayudarte a resolver tus dudas*
 		  
 		  `)
@@ -391,19 +398,20 @@ Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
                  
 		if (budy.includes(`6`)) {
                   reply(`*-------TEMARIO DE LAS CLASES------*\n\
-Constitución y Derechos Humanos\n\
-Ética y Seguridad Privada\n\
-Legislación y Seguridad Privada\n\
-Redacción y elaboración de Documentos\n\
-Normas y procedimientos de Seguridad\n\
-Control de Emergencias y Seguridad de Instalaciones\n\
-Atención al Cliente e identificación de Personas\n\
-Defensa Personal\n\
-Conocimiento de Sistemas de Alarmas\n\
-Primeros Auxilios\n\
-Conocimiento y manipulación de Armas\n\
+▶️Constitución y Derechos Humanos\n\
+▶️Ética y Seguridad Privada\n\
+▶️Legislación y Seguridad Privada\n\
+▶️Redacción y elaboración de Documentos\n\
+▶️Normas y procedimientos de Seguridad\n\
+▶️Control de Emergencias y Seguridad de Instalaciones\n\
+▶️Atención al Cliente e identificación de Personas\n\
+▶️Defensa Personal\n\
+▶️Conocimiento de Sistemas de Alarmas\n\
+▶️Primeros Auxilios\n\
+▶️Conocimiento y manipulación de Armas\n\
 
-Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
+Web de la empresa JL Seguridad: 
+🌐https://jlseguridad.com/curso-sucamec/
 *Ingresa otro número para ayudarte a resolver tus dudas*
 		  
 		  
@@ -412,25 +420,25 @@ Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
                   }
 		
 					
-		if (budy.includes(`7`)||budy.includes(`celular`)) {
+		if (budy.includes(`7`)||budy.includes(`celular`)||budy.includes(`telefono`)||budy.includes(`Telefono`)||budy.includes(`celular`)) {
                   reply(`*--NÚMERO CELULAR DE LA ASESORA--*\n\
 El numero de *atención(llamadas)* es \n\
-956988585  (Srta. Raquel)
+📞956988585  (Srta. Raquel)
 
-Horario de llamadas: 9:00AM - 7:00PM
+🕰Horario de llamadas: 9:00AM - 7:00PM
 
-Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/  
+🌐Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/  
 *Ingresa otro número para ayudarte a resolver tus dudas* `)
 			
                   }
 					
 					
 		
-		if (budy.includes(`8`)) {
+		if (budy.includes(`8`)||) {
                   reply(`*----EXÁMENES----*\n\
-Al finalizar cada capítulo del temario usted rendirá un examen.Para ello el instructor 20 minutos antes realizará un repaso general de cada tema para garantizar que el alumno pueda aprobar. 
-Por otra parte, las clases son grabadas y se subiran en la plataforma web con el fin de que el alumno pueda repasar o revisar algún tema. 
-Finalmente, en caso se presente alguna dificultad para realizar el examen, se tomará hasta 02 examenes de recuperación
+Al finalizar cada capítulo del temario usted rendirá un examen. Para ello el instructor 20 minutos antes realizará un repaso general de cada tema para garantizar que el participante pueda aprobar. 
+Las clases son grabadas y se subiran en la plataforma web con el fin de que el participante pueda repasar o revisar algún tema. 
+Finalmente, en caso se presente alguna dificultad para realizar el examen, se tomará le brindará la opción de 3 intentos por cada examen.
 Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/	
 *Ingresa otro número para ayudarte a resolver tus dudas* `)
 			
@@ -444,7 +452,7 @@ Numeros de cuenta para realizar el pago, las cuales están a nombre de la empres
 https://drive.google.com/file/d/1jjv6SKzhjFcfkcuLk4G3o5tzVIrS99f0/view
 Despues de haber realizado el pago enviar el voucher al  siguiente número WhatsApp http://Wa.me/+51956988585
 (956988585 - Srta. Raquel) le pedirá una foto de su dni para poder registrarle en el sistema.
-*Gracias por confiar en JL Seguridad | Formación Virtual*  `)
+*Gracias por confiar en JL Seguridad 😀 | Formación Virtual*  `)
 			
                   }			
 					

@@ -448,7 +448,7 @@ El numero de *atención(llamadas)* es \n\
                   reply(`*----🎯¿Cómo son los Exámenes?----*\n\
 ▶️Al finalizar cada capítulo del temario usted rendirá un examen. Para ello el instructor 20 minutos antes realizará un repaso general de cada tema para garantizar que el participante pueda aprobar. 
 ▶️Las clases son grabadas y se subiran en la plataforma web con el fin de que el participante pueda repasar o revisar algún tema. 
-▶️Finalmente, en caso se presente alguna dificultad para realizar el examen, se tomará le brindará la opción de 3 intentos por cada examen.
+▶️Finalmente, en caso se presente alguna dificultad para realizar el examen, se le brindará 3 intentos por cada examen.
 
 🌐Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/	
 *🤖Ingresa otro número para ayudarte a resolver tus dudas* `)

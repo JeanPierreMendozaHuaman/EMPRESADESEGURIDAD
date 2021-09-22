@@ -386,6 +386,8 @@ Web de la empresa JL Seguridad:
 ✅Contará con un usuario y contraseña personal para realizar los exámenes.Tendrá mayor preferencia en la hora de postular para alguno de las infraestructuras a la cual prestamos servicios.
 ✅Estará inscrito en el sistema de la SUCAMEC, por lo que cualquier empresa de seguridad del Perú podrá verificar que usted está certificado Agente de Seguridad. 
 ✅Con el certificado emitido podrá continuar con los siguientes trámites para la obtención de licencia de arma. Ya que este curso es obligatorio para cualquier agente que desee obtener licencia de arma. 
+Web de la empresa JL Seguridad: 
+🌐https://jlseguridad.com/curso-sucamec/
 *Ingresa otro número para ayudarte a resolver tus dudas*
 		  
 		  `)
@@ -399,6 +401,9 @@ Esto gracias al prestigio (Contamos con certificaciones *ISO Trinorma* ) y exper
 ✔️Nuestro objetivo es que cuentes con las acreditaciones y certificaciones para que puedas postular a cualquier puesto donde se requiera un agente de seguridad.
 👁‍🗨Sabías que actualmente hay más de 90,000 puestos de trabajo para agentes de seguridad en todo el Perú. Y que se requiere anualmente un promedio de 8,000 nuevos agentes que cubran los puestos de los que se van retirando.
 Adquiere las acreditaciones con nosotros y sé el 💪🏻 *Mejor Agente de Seguridad* 
+
+Web de la empresa JL Seguridad: 
+🌐https://jlseguridad.com/curso-sucamec/
 *🤖Ingresa otro número para ayudarte a resolver tus dudas*
 		  
 		  `)

@@ -287,7 +287,7 @@ only: {
 		  *(6): 📜Temario de las clases*
 		  *(7): 📞Número celular de la Asesora*
 		  *(8): 📝¿Cómo son los Exámenes?*
-		  *(9): 🤩Quiero realizar el pago ya* \n\
+		  *(9): 🤩Quiero realizar el pago y matricularme ya* \n\
 		  
 		  Y si deseas conversar de manera telefónica con una de nuestras asesoras comunícate al: 956988585 - Srta Raquel
 		  `);
@@ -344,10 +344,11 @@ No brindamos asesoría para tramitar licencia de arma, solo a nuestros colaborad
 El curso *PERFECCIONAMIENTO* tiene una duración de 7 días, de 08:00AM-11:45PM.
 Inicio de clases *11 de Octubre* \n\ \n\
 
-El curso *BÁSICO* tiene una duración de 12 dias, de 8:00AM-11:45AM.
+El curso *BÁSICO | Para participantes nuevos* tiene una duración de 12 dias, de 8:00AM-11:45AM.
 Inicio de clases *01 de Octubre* \n\  \n\
 Las clases son de *lunes a sábado* por la plataforma ZOOM. \n\ \n\
 Existirá una *capacitación previa* para enseñarte a usar Zoom y la plataforma educativa.
+
 Link de la plataforma educativa: https://jlseguridad.moodlecloud.com/
 
 Web de la empresa JL Seguridad: 
@@ -405,8 +406,8 @@ Web de la empresa JL Seguridad:
 			
                   }
                  
-		if (budy.includes(`6`)) {
-                  reply(`*-------TEMARIO DE LAS CLASES------*\n\
+		if (budy.includes(`6`)||budy.includes(`temarios`)||budy.includes(`Temario`)||budy.includes(`Temarios`)||budy.includes(`temario`)||budy.includes(`temas`)) {
+                  reply(`*-------📜TEMARIO DE LAS CLASES------*\n\
 ▶️Constitución y Derechos Humanos\n\
 ▶️Ética y Seguridad Privada\n\
 ▶️Legislación y Seguridad Privada\n\
@@ -444,19 +445,20 @@ El numero de *atención(llamadas)* es \n\
 					
 		
 		if (budy.includes(`8`)) {
-                  reply(`*----EXÁMENES----*\n\
-Al finalizar cada capítulo del temario usted rendirá un examen. Para ello el instructor 20 minutos antes realizará un repaso general de cada tema para garantizar que el participante pueda aprobar. 
-Las clases son grabadas y se subiran en la plataforma web con el fin de que el participante pueda repasar o revisar algún tema. 
-Finalmente, en caso se presente alguna dificultad para realizar el examen, se tomará le brindará la opción de 3 intentos por cada examen.
-Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/	
+                  reply(`*----🎯¿Cómo son los Exámenes?----*\n\
+▶️Al finalizar cada capítulo del temario usted rendirá un examen. Para ello el instructor 20 minutos antes realizará un repaso general de cada tema para garantizar que el participante pueda aprobar. 
+▶️Las clases son grabadas y se subiran en la plataforma web con el fin de que el participante pueda repasar o revisar algún tema. 
+▶️Finalmente, en caso se presente alguna dificultad para realizar el examen, se tomará le brindará la opción de 3 intentos por cada examen.
+
+🌐Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/	
 *🤖Ingresa otro número para ayudarte a resolver tus dudas* `)
 			
                   }
 					
 		
-		if (budy.includes(`9`)||budy.includes(`pagar`)||budy.includes(`cuenta`)) {
-                  reply(`*CUENTAS BANCARIAS*
-Numeros de cuenta para realizar el pago, las cuales están a nombre de la empresa JL Seguridad:
+		if (budy.includes(`9`)||budy.includes(`pagar`)||budy.includes(`cuenta`)||budy.includes(`matrícula`)||budy.includes(`matricula`)||budy.includes(`Matricula`)||budy.includes(`matricularme`)||budy.includes(`Matricularme`)||budy.includes(`inscripcion`)||budy.includes(`Inscripción`)||budy.includes(`Inscripción`)||budy.includes(`inscripción`)) {
+                  reply(`*🤩CUENTAS BANCARIAS*
+Numeros de cuenta para realizar el pago, las cuales están a nombre de la empresa JL Seguridad, en el siguiente *link* o *enlace* :
  
 https://drive.google.com/file/d/1jjv6SKzhjFcfkcuLk4G3o5tzVIrS99f0/view
 

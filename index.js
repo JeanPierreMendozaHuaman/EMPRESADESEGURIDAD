@@ -287,7 +287,7 @@ only: {
 		  *(6): 📜Temario de las clases*
 		  *(7): 📞Número celular de la Asesora*
 		  *(8): 📝¿Cómo son los Exámenes?*
-		  *(9): 🤩Quiero realizar el pago y matricularme ya* \n\
+		  *(9): 🤩Quiero realizar el pago y matricularme* \n\
 		  
 		  Y si deseas conversar de manera telefónica con una de nuestras asesoras comunícate al: 956988585 - Srta Raquel
 		  `);
@@ -462,7 +462,7 @@ Numeros de cuenta para realizar el pago, las cuales están a nombre de la empres
  
 https://drive.google.com/file/d/1jjv6SKzhjFcfkcuLk4G3o5tzVIrS99f0/view
 
-✔️Despues de haber realizado el pago enviar el voucher al  siguiente número WhatsApp http://Wa.me/+51956988585
+✔️Después de haber realizado el pago enviar el voucher al  siguiente número WhatsApp https://wa.link/rcl1ci
 ✔️( 956988585 - Srta. Raquel) le pedirá una foto de su dni para poder registrarle en el sistema.
 *🤖Gracias por confiar en JL Seguridad 😀 | Formación Virtual*  `)
 			

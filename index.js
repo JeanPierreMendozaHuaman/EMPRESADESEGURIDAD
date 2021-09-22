@@ -339,7 +339,7 @@ No brindamos asesoría para tramitar licencia de arma, solo a nuestros colaborad
                   }
 
 		if (budy.includes(`2`)|| budy.includes(`cuando`)||budy.includes(`cuándo`)||budy.includes(`Cuándo`)||budy.includes(`Cuando`)||budy.includes(`fecha`)||budy.includes(`Fecha`)||budy.includes(`horario`)||budy.includes(`Hora`)||budy.includes(`hora`)||budy.includes(`horario`)		) {
-                  reply(`*---Fecha de Inicio y Horario---*\n\
+                  reply(`*---📅Fecha de Inicio y Horario---*\n\
 
 El curso *PERFECCIONAMIENTO* tiene una duración de 7 días, de 08:00AM-11:45PM.
 Inicio de clases *11 de Octubre* \n\ \n\

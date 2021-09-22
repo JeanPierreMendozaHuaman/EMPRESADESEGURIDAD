@@ -278,6 +278,7 @@ only: {
 		if (budy.includes(``)) {
 	          
                   reply(`Hola! 😀 Nos alegra que estés interesado en nuestros cursos de *Formación de Agentes de Seguridad | Organizado por JL Seguridad*. Soy tu Asistente Virtual 🤖 *MypeBot.com* Solo escribe uno de los siguientes *números* (por ejemplo: *1* )y te responderé automáticamente. 
+		  *(0): 🔍Información*
 		  *(1): 💲Precio*
 		  *(2): 📅Fecha de inicio y horario*
 		  *(3): 📂Requisitos*
@@ -292,7 +293,7 @@ only: {
 		  `);
                   }
 					
-		if (budy.includes(`info`)||budy.includes(`Info`)|| budy.includes(`Informacion`)) {
+		if (budy.includes(`0`)||budy.includes(`info`)||budy.includes(`Info`)|| budy.includes(`Informacion`)) {
                   reply(
 			  `*-----------Información-----------*\n\ 
 Los cursos que brindamos son para el público en general, para conocer temas sobre seguridad ciudadana y protocolos que usa un agente de seguridad.

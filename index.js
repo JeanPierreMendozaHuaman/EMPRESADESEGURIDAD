@@ -289,7 +289,7 @@ only: {
 		  *(8): 📝¿Cómo son los Exámenes?*
 		  *(9): 🤩Quiero realizar el pago y matricularme* \n\
 		  
-		  Y si deseas conversar de manera telefónica con una de nuestras asesoras comunícate al: 956988585 - Srta Raquel
+		  Y si deseas conversar de manera telefónica con una de nuestras asesoras comunícate al: 📞 956988585 - Srta Raquel
 		  `);
                   }
 					
@@ -324,11 +324,15 @@ No brindamos asesoría para tramitar licencia de arma, solo a nuestros colaborad
 		if (budy.includes(`1`)||budy.includes(`precio`)|| budy.includes(`Precio`) || budy.includes(`Costo`)||budy.includes(`costo`)) {
                   reply(
 			  `*-----------💲Precio-----------*\n\ 
- *Curso Básico | Para personas nuevas* :El precio es de S/135 soles \n\
+ *1️⃣Curso Básico | Para personas nuevas* :El precio es de S/135 soles \n\
  
- *Curso Perfeccionamiento | Con curso vencido*: El precio es de S/120 soles \n\
+ *2️⃣Curso de Perfeccionamiento | Con curso vencido* : El precio es de S/120 soles \n\
  
- En ambos casos incluye el certificado digital al culminar los estudios. La cual estará firmado por el Instructor, por el Gerente General y acreditado por el Gobierno del Perú.
+ En ambos casos incluye el certificado digital al culminar los estudios. 
+ El cual estará firmado por:
+ ◼️El Instructor acreditado por SUCAMEC
+ ◼️El Gerente General de la empresa de seguridad 
+ ◻️Acreditado por el Gobierno del Perú en el Sistema de la SUCAMEC.
  
  Web de la empresa JL Seguridad: 
  🌐https://jlseguridad.com/curso-sucamec/ \n\
@@ -380,10 +384,8 @@ Web de la empresa JL Seguridad:
 ✅Acceso a una plataforma educativa virtual con capacitaciones previas para garantizar que usted tenga el dominio total de esta herramienta.
 ✅Las clases serán grabadas y subidas a la plataforma web.
 ✅Contará con un usuario y contraseña personal para realizar los exámenes.Tendrá mayor preferencia en la hora de postular para alguno de las infraestructuras a la cual prestamos servicios.
-✅Una vez culmine el curso de manera satisfactoria, estará inscrito en el sistema de la SUCAMEC, por lo que cualquier empresa de seguridad del Perú podrá verificar que usted está capacitado para ser Agente de Seguridad. 
-✅Una vez obtenga este certificado podrá continuar con los siguientes trámites para la obtención de licencia de arma. Ya que este curso es obligatorio para cualquier agente que desee obtener licencia de arma. 
-
-Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/
+✅Estará inscrito en el sistema de la SUCAMEC, por lo que cualquier empresa de seguridad del Perú podrá verificar que usted está certificado Agente de Seguridad. 
+✅Con el certificado emitido podrá continuar con los siguientes trámites para la obtención de licencia de arma. Ya que este curso es obligatorio para cualquier agente que desee obtener licencia de arma. 
 *Ingresa otro número para ayudarte a resolver tus dudas*
 		  
 		  `)
@@ -397,9 +399,6 @@ Esto gracias al prestigio (Contamos con certificaciones *ISO Trinorma* ) y exper
 ✔️Nuestro objetivo es que cuentes con las acreditaciones y certificaciones para que puedas postular a cualquier puesto donde se requiera un agente de seguridad.
 👁‍🗨Sabías que actualmente hay más de 90,000 puestos de trabajo para agentes de seguridad en todo el Perú. Y que se requiere anualmente un promedio de 8,000 nuevos agentes que cubran los puestos de los que se van retirando.
 Adquiere las acreditaciones con nosotros y sé el 💪🏻 *Mejor Agente de Seguridad* 
-
-Web de la empresa JL Seguridad: 
-🌐 https://jlseguridad.com/curso-sucamec/
 *🤖Ingresa otro número para ayudarte a resolver tus dudas*
 		  
 		  `)

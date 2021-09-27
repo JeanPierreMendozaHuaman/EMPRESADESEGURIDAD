@@ -473,8 +473,7 @@ https://drive.google.com/file/d/1jjv6SKzhjFcfkcuLk4G3o5tzVIrS99f0/view
 
 ✔️Después de haber realizado el pago enviar el voucher al  siguiente número WhatsApp https://wa.link/rcl1ci
 ✔️( 956988585 - Srta. Raquel) le pedirá una foto de su dni para poder registrarle en el sistema.
-*🤖Gracias por confiar en JL Seguridad 😀 | Formación Virtual*  `);
-			client.sendMediaMessage(id, buffer2, WhatsAppWeb.MessageType.image, options);
+*🤖Gracias por confiar en JL Seguridad 😀 | Formación Virtual*  `)
 			
                   }			
 					

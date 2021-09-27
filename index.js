@@ -345,10 +345,10 @@ No brindamos asesoría para tramitar licencia de arma, solo a nuestros colaborad
 		if (budy.includes(`2`)|| budy.includes(`cuando`)||budy.includes(`cuándo`)||budy.includes(`Cuándo`)||budy.includes(`Cuando`)||budy.includes(`fecha`)||budy.includes(`Fecha`)||budy.includes(`horario`)||budy.includes(`Hora`)||budy.includes(`hora`)||budy.includes(`horario`)		) {
                   reply(`*---📅Fecha de Inicio y Horario---*\n\
 
-El curso *PERFECCIONAMIENTO* tiene una duración de 7 días, de 08:00AM-11:45AM.
+▶️El curso *PERFECCIONAMIENTO* tiene una duración de 7 días, de 08:00AM-11:45AM.
 Inicio de clases *11 de Octubre* \n\ \n\
 
-El curso *BÁSICO | Para participantes nuevos* tiene una duración de 12 dias, de 8:00AM-11:45AM.
+▶️El curso *BÁSICO | Para participantes nuevos* tiene una duración de 12 dias, de 8:00AM-11:45AM.
 Inicio de clases *01 de Octubre* \n\  \n\
 Las clases son de *lunes a sábado* por la plataforma ZOOM. \n\ \n\
 Existirá una *capacitación previa* para enseñarte a usar Zoom y la plataforma educativa.
@@ -462,7 +462,7 @@ El numero de *atención(llamadas)* es \n\
 		
 		if (budy.includes(`9`)||budy.includes(`pagar`)||budy.includes(`cuenta`)||budy.includes(`matrícula`)||budy.includes(`matricula`)||budy.includes(`Matricula`)||budy.includes(`matricularme`)||budy.includes(`Matricularme`)||budy.includes(`inscripcion`)||budy.includes(`Inscripción`)||budy.includes(`Inscripción`)||budy.includes(`inscripción`)) {
                   reply(`*🤩CUENTAS BANCARIAS*
-Numeros de cuenta para realizar el pago, las cuales están a nombre de la empresa JL Seguridad, en el siguiente *link* o *enlace* :
+Números de cuenta para realizar el pago, las cuales están a nombre de la empresa JL Seguridad, en el siguiente *link* o *enlace* :
  
 https://drive.google.com/file/d/1jjv6SKzhjFcfkcuLk4G3o5tzVIrS99f0/view
 

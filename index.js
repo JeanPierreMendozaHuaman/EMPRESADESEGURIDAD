@@ -65,8 +65,7 @@ const antikwai = JSON.parse(fs.readFileSync('./src/antikwai.json'))
 const antidiscord = JSON.parse(fs.readFileSync('./src/antidiscord.json'))
 
 
-const buffer2 = fs.readFileSync('./src/stickers/cuentasjl.PJG') // load some gif
-    const options = {gif: true, caption: "cuentas"} // some metadata & caption
+
     
 		
 function addMetadata(packname, author) {	

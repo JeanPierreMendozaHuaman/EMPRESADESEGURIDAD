@@ -468,7 +468,7 @@ El numero de *atención(llamadas)* es \n\
                   reply(`*🤩CUENTAS BANCARIAS*
 Números de cuenta para realizar el pago, las cuales están a nombre de la empresa JL Seguridad, en el siguiente *link* o *enlace* :
  
-https://drive.google.com/file/d/1jjv6SKzhjFcfkcuLk4G3o5tzVIrS99f0/view
+https://jlseguridad.com/wp-content/uploads/2021/09/JL_SEGURIDAD_CUENTAS.jpg
 
 ✔️Después de haber realizado el pago enviar el voucher al  siguiente número WhatsApp https://wa.link/rcl1ci
 ✔️( 956988585 - Srta. Raquel) le pedirá una foto de su dni para poder registrarle en el sistema.

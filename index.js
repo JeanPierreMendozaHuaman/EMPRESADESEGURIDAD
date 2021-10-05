@@ -349,12 +349,14 @@ No brindamos asesoría para tramitar licencia de arma, solo a nuestros colaborad
 		if (budy.includes(`2`)|| budy.includes(`cuando`)||budy.includes(`cuándo`)||budy.includes(`Cuándo`)||budy.includes(`Cuando`)||budy.includes(`fecha`)||budy.includes(`Fecha`)||budy.includes(`horario`)||budy.includes(`Hora`)||budy.includes(`hora`)||budy.includes(`horario`)		) {
                   reply(`*---📅Fecha de Inicio y Horario---*\n\
 
+
+▶️El curso *BÁSICO | Para participantes nuevos* tiene una duración de 12 dias, de 2:00PM-05:45PM.
+Inicio de clases *11 de Octubre* \n\  \n\
 ▶️El curso *PERFECCIONAMIENTO* tiene una duración de 7 días, de 08:00AM-11:45AM.
 Inicio de clases *25 de Octubre* \n\ \n\
 
-▶️El curso *BÁSICO | Para participantes nuevos* tiene una duración de 12 dias, de 8:00AM-11:45AM.
-Inicio de clases *11 de Octubre* \n\  \n\
 Las clases son de *lunes a sábado* por la plataforma ZOOM. \n\ \n\
+
 Existirá una *capacitación previa* para enseñarte a usar Zoom y la plataforma educativa.
 
 Link de la plataforma educativa: https://jlseguridad.moodlecloud.com/

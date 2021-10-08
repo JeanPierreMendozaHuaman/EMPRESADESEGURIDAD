@@ -307,7 +307,7 @@ only: {
 
  
  Web de la empresa JL Seguridad: 
- 🌐https://jlseguridad.com/curso-sucamec/ \n\
+ 🌐https://jlseguridad.com \n\
  *🤖Ingresa otro número para ayudarte a resolver tus dudas* `);
 			
 			
@@ -318,28 +318,27 @@ only: {
 			  `*-----------Información de licencia de arma-----------*\n\ 
 No brindamos asesoría para tramitar licencia de arma, solo a nuestros colaboradores que están contratados en la empresa JL Seguridad.  
  Web de la empresa JL Seguridad: 
- 🌐https://jlseguridad.com/curso-sucamec/ \n\
+ 🌐https://jlseguridad.com \n\
  *🤖Ingresa un número para ayudarte a resolver tus dudas* `);
 			
 			
 			
                   }
 		
-		if (budy.includes(`1`)||budy.includes(`precio`)|| budy.includes(`Precio`) || budy.includes(`Costo`)||budy.includes(`costo`)) {
+		if (budy.includes(`1`)||budy.includes(`precio`)|| budy.includes(`Precio`) || budy.includes(`Costo`)||budy.includes(`costo`)||budy.includes(`uant`)) {
                   reply(
 			  `*-----------💲Precio-----------*\n\ 
- *1️⃣Curso Básico | Para personas nuevas* :El precio es de S/135 soles \n\
- 
- *2️⃣Curso de Perfeccionamiento | Con curso vencido* : El precio es de S/120 soles \n\
- 
- En ambos casos incluye el certificado digital al culminar los estudios. 
+ *1️⃣Curso Básico | Para personas nuevas* :El precio es de *S/135* soles \n\
+ (único pago)
+
+ Incluye el certificado digital al culminar los estudios. 
  El cual estará firmado por:
  ◼️El Instructor acreditado por SUCAMEC
  ◼️El Gerente General de la empresa de seguridad 
  ◻️Acreditado por el Gobierno del Perú en el Sistema de la SUCAMEC.
  
  Web de la empresa JL Seguridad: 
- 🌐https://jlseguridad.com/curso-sucamec/ \n\
+ 🌐https://jlseguridad.com \n\
  *Ingresa otro número para ayudarte a resolver tus dudas* `);
 			
 			
@@ -352,17 +351,13 @@ No brindamos asesoría para tramitar licencia de arma, solo a nuestros colaborad
 
 ▶️El curso *BÁSICO | Para participantes nuevos* tiene una duración de 12 dias, de 2:00PM-05:45PM.
 Inicio de clases *11 de Octubre* \n\  \n\
-▶️El curso *PERFECCIONAMIENTO* tiene una duración de 7 días, de 08:00AM-11:45AM.
-Inicio de clases *25 de Octubre* \n\ \n\
-
-Las clases son de *lunes a sábado* por la plataforma ZOOM. \n\ \n\
+Fin de claes: *25 de Octubre*
+Las clases son de *lunes a sábado* por ZOOM. \n\ \n\
 
 Existirá una *capacitación previa* para enseñarte a usar Zoom y la plataforma educativa.
 
-Link de la plataforma educativa: https://jlseguridad.moodlecloud.com/
-
 Web de la empresa JL Seguridad: 
-🌐https://jlseguridad.com/curso-sucamec/
+🌐https://jlseguridad.com
 *🤖Ingresa otro número para ayudarte a resolver tus dudas*
 		  `);
 			
@@ -375,10 +370,9 @@ Web de la empresa JL Seguridad:
 ✔️En caso usara una computadora, esta debe tener una cámara y audífono externos. \n\ 
 ✔️En caso use celular, Tablet o laptop estas tienen cámara, micrófono y audífono incorporados. Por lo que no deberá preocupase en comprar más. 
 ✔️Tener mayoría de edad (mínimo 18 años)	
-✔️No hay distinción de sexo, el curso puede ser para hombre o mujer
 ✔️Tener su DNI físico o C4
 Web de la empresa JL Seguridad: 
-🌐https://jlseguridad.com/curso-sucamec/
+🌐https://jlseguridad.com
 *🤖Ingresa otro número para ayudarte a resolver tus dudas*
 		  `);
 			
@@ -409,7 +403,7 @@ Esto gracias al prestigio (Contamos con certificaciones *ISO Trinorma* ) y exper
 Adquiere las acreditaciones con nosotros y sé el 💪🏻 *Mejor Agente de Seguridad* 
 
 Web de la empresa JL Seguridad: 
-🌐https://jlseguridad.com/curso-sucamec/
+🌐https://jlseguridad.com
 *🤖Ingresa otro número para ayudarte a resolver tus dudas*
 		  
 		  `)
@@ -431,7 +425,7 @@ Web de la empresa JL Seguridad:
 ▶️Conocimiento y manipulación de Armas\n\
 
 Web de la empresa JL Seguridad: 
-🌐https://jlseguridad.com/curso-sucamec/
+🌐https://jlseguridad.com
 *🤖Ingresa otro número para ayudarte a resolver tus dudas*
 		  
 		  
@@ -454,7 +448,7 @@ El numero de *atención(llamadas)* es \n\
 					
 					
 		
-		if (budy.includes(`8`)) {
+		if (budy.includes(`8`)||budy.includes(`exam`)||budy.includes(`Exam`)) {
                   reply(`*----🎯¿Cómo son los Exámenes?----*\n\
 ▶️Al finalizar cada capítulo del temario usted rendirá un examen. Para ello el instructor 20 minutos antes realizará un repaso general de cada tema para garantizar que el participante pueda aprobar. 
 ▶️Las clases son grabadas y se subiran en la plataforma web con el fin de que el participante pueda repasar o revisar algún tema. 
@@ -464,11 +458,19 @@ El numero de *atención(llamadas)* es \n\
 *🤖Ingresa otro número para ayudarte a resolver tus dudas* `)
 			
                   }
-					
+			
+					if (budy.includes(`Gracias`)||budy.includes(`gracias`)||budy.includes(`graci`)) {
+                  reply(`Un gusto atenderte 🤖 Que tengas un bonito día
+
+
+🌐Web de la empresa JL Seguridad: https://jlseguridad.com	
+`)
+			
+                  }
 		
-		if (budy.includes(`9`)||budy.includes(`pagar`)||budy.includes(`cuenta`)||budy.includes(`matrícula`)||budy.includes(`matricula`)||budy.includes(`Matricula`)||budy.includes(`matricularme`)||budy.includes(`Matricularme`)||budy.includes(`inscripcion`)||budy.includes(`Inscripción`)||budy.includes(`Inscripción`)||budy.includes(`inscripción`)) {
+		if (budy.includes(`9`)||budy.includes(`atric`)||budy.includes(`birme`)||budy.includes(`pagar`)||budy.includes(`cuenta`)||budy.includes(`matrícula`)||budy.includes(`matricula`)||budy.includes(`Matricula`)||budy.includes(`matricularme`)||budy.includes(`Matricularme`)||budy.includes(`inscripcion`)||budy.includes(`Inscripción`)||budy.includes(`Inscripción`)||budy.includes(`inscripción`)) {
                   reply(`*🤩CUENTAS BANCARIAS*
-Números de cuenta para realizar el pago, las cuales están a nombre de la empresa JL Seguridad, en el siguiente *link* o *enlace* :
+Los números de cuenta para realizar el pago, los cuales están a nombre de la empresa JL Seguridad, en el siguiente *link* o *enlace* :
  
 https://jlseguridad.com/wp-content/uploads/2021/09/JL_SEGURIDAD_CUENTAS.jpg
 

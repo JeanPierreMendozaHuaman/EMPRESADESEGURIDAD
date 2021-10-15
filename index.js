@@ -351,8 +351,8 @@ No brindamos asesoría para tramitar licencia de arma, solo a nuestros colaborad
 
 ▶️El curso *BÁSICO | Para participantes nuevos* tiene una duración de 12 dias, de 8:00AM - 11:45AM (turno mañana) y 2:00PM-05:45PM (turno tarde).
 Horas de clase al día: *3horas y 45minutos*
-Inicio de clases *20 de Noviembre* \n\  \n\
-Fin de clases: *2 de Diciembre*
+Inicio de clases *1 de Diciembre*
+Fin de clases: *15 de Diciembre*
 Las clases son de *lunes a sábado* por ZOOM. \n\ \n\
 
 Existirá una *capacitación previa* para enseñarte a usar Zoom y la plataforma educativa.

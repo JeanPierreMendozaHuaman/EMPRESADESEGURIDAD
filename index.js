@@ -454,6 +454,7 @@ El numero de *atención(llamadas)* es \n\
 ▶️Al finalizar cada capítulo del temario usted rendirá un examen. Para ello el instructor 20 minutos antes realizará un repaso general de cada tema para garantizar que el participante pueda aprobar. 
 ▶️Las clases son grabadas y se subiran en la plataforma web con el fin de que el participante pueda repasar o revisar algún tema. 
 ▶️Finalmente, en caso se presente alguna dificultad para realizar el examen, se le brindará 3 intentos por cada examen.
+▶️Se le entregará un banco de preguntas para que pueda revisar las preguntas que viene en el examen.
 
 🌐Web de la empresa JL Seguridad: https://jlseguridad.com/curso-sucamec/	
 *🤖Ingresa otro número para ayudarte a resolver tus dudas* `)
@@ -471,12 +472,15 @@ El numero de *atención(llamadas)* es \n\
 		
 		if (budy.includes(`9`)||budy.includes(`atric`)||budy.includes(`birme`)||budy.includes(`pagar`)||budy.includes(`cuenta`)||budy.includes(`matrícula`)||budy.includes(`matricula`)||budy.includes(`Matricula`)||budy.includes(`matricularme`)||budy.includes(`Matricularme`)||budy.includes(`inscripcion`)||budy.includes(`Inscripción`)||budy.includes(`Inscripción`)||budy.includes(`inscripción`)) {
                   reply(`*🤩CUENTAS BANCARIAS*
-Los números de cuenta para realizar el pago, los cuales están a nombre de la empresa JL Seguridad, en el siguiente *link* o *enlace* :
+Para la matrícula se debe realizar lo siguiente:
+1) Primero informar al WhatsApp: 988891725 la intención de su matrícula. 
+2) Realizar el pago de S/135 soles en las siguientes cuentas: los cuales están a nombre de la empresa JL Seguridad, en el siguiente *link* o *enlace* :
  
 https://jlseguridad.com/wp-content/uploads/2021/09/JL_SEGURIDAD_CUENTAS.jpg
+3) Finalmente informar al número 988891725 que ya se realizó el pago.
+4) Posteriormente se le estará brindando su usuario y contraseña para que tenga acceso al contenido del curso.
 
-✔️Después de haber realizado el pago enviar el voucher al  siguiente número WhatsApp https://wa.link/rcl1ci
-✔️( 956988585 - Srta. Raquel) le pedirá una foto de su dni para poder registrarle en el sistema.
+
 *🤖Gracias por confiar en JL Seguridad 😀 | Formación Virtual*  `)
 			
                   }			
